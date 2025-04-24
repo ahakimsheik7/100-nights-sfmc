@@ -1,0 +1,13 @@
+%%[
+SET @firstName = "Abdulhakim"
+SET @vip = "Yes"
+]%%
+
+<html>
+  <body>
+    <h1>Welcome %%=v(@firstName)=%%!</h1>
+    %%[ IF @vip == "Yes" THEN ]%%
+      <p>You are a VIP! 🎉</p>
+    %%[ ENDIF ]%%
+  </body>
+</html>
