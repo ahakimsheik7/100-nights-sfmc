@@ -1,26 +1,24 @@
-<html>
+<htl>
   <body>
+    <!--
+Project: Welcome Email Practice
+Topic: Using VAR, SET, IF, and AttributeValue()
+Goal: Personalize email greeting and VIP message
+Simulated Output:
+- Hello Abdulhakim!
+- You are a VIP member.
+-->
+%%[
+VAR @firstName, @vip
+SET @firstName = "Abdulhakim"
+SET @vip = "Yes"
+]%%
 
-   %[var @firstName, @city]
-   %%[
-   set @firstName = "Abdulhakim")
-   set @city = "Jigjiga"
-   ]%%
-    <h1>Welcome to our service!</h1>
-    <p>Dear %%=v(@firstName)=%%,</p>
-    <p>We are excited to have you on board.</p>
-    <p>We noticed you are from %%=v(@city)=%%, and we hope you enjoy our services.</p>
-    <p>If you have any questions, feel free to reach out.</p>
-    <p>Best regards,</p>
-    <p>The Team</p>
-    <p>Here is a personalized greeting:</p>
-    <p>Dear %%=v(@firstName)=%%,</p>
-    <p>We are thrilled to have you with us!</p>
-    <p>We noticed you are from %%=v(@city)=%%, and we hope you enjoy our services.</p>
-    <p>If you have any questions, feel free to reach out.</p>
 
     <h1>Hello %%=v(@firstName)=%%!</h1>
-    <p>Welcome from %%=v(@city)=%%.</p>
-
+    %%[ IF @vip == "Yes" THEN ]%%
+      <p>🎉 You are a VIP member!</p>
+    %%[ ENDIF ]%%
+ 
   </body>
-</html>
+</htl>
