@@ -10,13 +10,18 @@ Simulated Output:
 -->
 
 %%[
-VAR @parentName, @courseLevel
+VAR @parentName, @courseLevel, @today, @startDate, @daysLeft
 
--- Setting parent name and course level manually for now. Later will pull dynamically from Data Extension. --
-
+-- Setting parent name and course level manually for now
 SET @parentName = "Brother Abdulhakim"
 SET @courseLevel = "Quran Advanced"
+
+-- Calculating days left until course starts
+SET @today = Now()
+SET @startDate = DateParse("2025-05-29")
+SET @daysLeft = DateDiff(@startDate, @today, "D")
 ]%%
+
 
 
 <html>
@@ -31,12 +36,17 @@ SET @courseLevel = "Quran Advanced"
     <p>
       This is a wonderful opportunity for your child to strengthen their relationship with the Book of Allah from the comfort of home, guided by qualified instructors.
     </p>
+    <p style="color: red; font-weight: bold;">
+        Hurry! Only %%=v(@daysLeft)=%% days left until classes start!
+      </p>
+      
 
     <p style="margin-top: 30px;">
       <a href="#" style="background-color: #4CAF50; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px;">
         Register Your Child Now
       </a>
     </p>
+    
 
     <p style="margin-top: 20px;">
       Jazakum Allahu Khayran,<br>
