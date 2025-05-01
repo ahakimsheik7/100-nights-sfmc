@@ -1,0 +1,52 @@
+<html>
+<body style="background-color: #f9f9f9; color: #333;">
+<!--
+Project: Healthcare Appointment Reminder Email
+Purpose:
+This email simulates a reminder sent by clinics or hospitals to patients. 
+It uses AMPscript to personalize details such as:
+
+- Patient Name
+- Doctor Name
+- Appointment Date & Time
+- Clinic Location
+
+Technologies Used:
+- HTML (inline CSS for email rendering)
+- AMPscript (Salesforce Marketing Cloud)
+
+Author: Abdulhakim
+Date: April 30, 2025
+-->
+
+%%[
+VAR @patientName, @doctorName, @appointmentDate, @appointmentTime, @clinicLocation, @clinicPhone, @clinicEmail, @clinicAddress, @clinicWebsite
+SET @patientName = "Brother Abdulhakim"
+SET @doctorName = "Dr. Aisha Khan"
+SET @appointmentDate = "May 5, 2025"
+SET @appointmentTime = "10:00 AM"
+SET @clinicLocation = "123 Health St, Wellness City"
+SET @clinicPhone = "(123) 456-7890"
+SET @clinicEmail = "care@wellnessclinic.com"
+SET @clinicAddress = "123 Health St, Wellness City, HC 10001"
+SET @clinicWebsite = "www.wellnessclinic.com"
+]%%
+
+<h1 style="color: #005528;"><strong>Apointment Reminder</strong></h1>
+<p><strong>%%=v(@patientName)=%%,</strong></p>
+</p>
+<p>We are writing to remind you of your upcoming appointment with <strong>Dr. %%=v(@doctorName)=%%</strong>.</p>
+<p>Your appointment is scheduled for <strong>%%=v(@appointmentDate)=%% at %%=v(@appointmentTime)=%%</strong>.</p>
+<p>Location: <strong>%%=v(@clinicLocation)=%%</strong></p>
+<p>Please arrive at least 15 minutes early to complete any necessary paperwork.</p>
+<p>If you have any questions or need to reschedule, please call us at <strong>%%=v(@clinicPhone)=%%</strong>.</p>
+<p>Thank you for choosing our clinic for your healthcare needs.</p>
+<p>Best regards,</p>
+<p><strong>Your Healthcare Team</strong></p>
+<p><strong>Contact Us: %%=v(@clinicEmail)=%%</strong></p>
+<p><strong>Phone: %%=v(@clinicPhone)=%%</strong></p>
+<p><strong>Address: %%=v(@clinicAddress)=%%</strong></p>
+<p><strong>Website: %%=v(@clinicWebsite)=%%</strong></p>
+<p><strong>Follow us on social media:</strong></p>
+</body>
+</html>
