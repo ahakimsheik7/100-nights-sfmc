@@ -1,9 +1,9 @@
-## 📈 Summary
+## 📈 Progress Summary
 
-| Metric                   | Value             |
-|--------------------------|-------------------|
-| **Total Nights Completed** | 8 nights          |
-| **Total Hours Logged**     | 18 hours          |
-| **Projects Created**       | 8 email templates |
-| **Discipline Status**      | 100% ✅           |
-| **Next Focus**             | Appointment Email (Healthcare Simulation) |
+| Metric                   | Value                |
+|--------------------------|----------------------|
+| Total Nights Completed   | 9 nights             |
+| Total Hours Practiced    | 20 hours             |
+| Projects Created         | 9 AMPscript emails   |
+| Most Recent Project      | Healthcare Reminder Email (Handwritten) |
+| Next Focus               | Sufi Academy Enrollment Confirmation |
