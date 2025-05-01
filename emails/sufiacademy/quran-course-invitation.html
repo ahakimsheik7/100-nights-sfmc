@@ -1,0 +1,70 @@
+<!--
+Project: Quran Course Invitation Email
+Audience: Parents
+Purpose: Invite parents to register their children for Quran classes starting May 29
+Special: Personalized greeting (parent's name) and clear call-to-action (registration link)
+Simulated Output:
+- Hello [Parent Name]!
+- Invitation details about online Quran classes
+- Registration button
+-->
+
+%%[
+VAR @parentName, @courseLevel, @today, @startDate, @daysLeft
+
+-- Setting parent name and course level manually for now
+SET @parentName = "Brother Abdulhakim"
+SET @courseLevel = "Quran Advanced"
+
+-- Calculating days left until course starts
+SET @today = Now()
+SET @startDate = DateParse("2025-05-29")
+SET @daysLeft = DateDiff(@startDate, @today, "D")
+]%%
+
+
+
+<html>
+  <body style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px;">
+
+    <h1 style="color: #2e6c80;">Assalamu Alaikum %%=v(@parentName)=%%,</h1>
+
+    <p>
+      We are excited to announce that <strong>Sufi Academy</strong> is offering <strong>online Quran courses</strong> for students of all ages, starting on <strong>May 29</strong>, insha'Allah!
+    </p>
+
+    <p>
+      This is a wonderful opportunity for your child to strengthen their relationship with the Book of Allah from the comfort of home, guided by qualified instructors.
+    </p>
+    <p style="color: red; font-weight: bold;">
+        Hurry! Only %%=v(@daysLeft)=%% days left until classes start!
+      </p>
+      
+
+    <p style="margin-top: 30px;">
+      <a href="#" style="background-color: #4CAF50; color: white; padding: 12px 20px; text-decoration: none; border-radius: 5px;">
+        Register Your Child Now
+      </a>
+    </p>
+    
+
+    <p style="margin-top: 20px;">
+      Jazakum Allahu Khayran,<br>
+      Sufi Academy Team
+    </p>
+
+  </body>
+</html>
+
+<!--
+Expected Output:
+
+Assalamu Alaikum Brother Abdulhakim,
+
+We are excited to announce that Sufi Academy is offering online Quran courses for students of all ages, starting on May 29, insha'Allah!
+
+(Registration button)
+
+Jazakum Allahu Khayran,
+Sufi Academy Team
+-->
