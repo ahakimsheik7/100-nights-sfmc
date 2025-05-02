@@ -1,0 +1,38 @@
+<!--
+Project: Sufi Academy Enrollment Confirmation Email
+Purpose: Confirm Quran course enrollment and provide course info
+Technologies: AMPscript + HTML + inline CSS
+Author: Abdulhakim
+Date: May 2, 2025
+-->
+
+%%[
+VAR @studentName, @courseLevel, @instructorName, @startDate, @academyName, @contactEmail
+
+SET @studentName = "Zainah Abdulhakim"
+SET @courseLevel = "Beginner – Quran Reading"
+SET @instructorName = "Ustadha Maryam"
+SET @startDate = "May 29, 2025"
+SET @academyName = "Sufi Academy"
+SET @contactEmail = "info@sufiacademy.com"
+]%%
+
+<html>
+  <body style="font-family: Arial, sans-serif; background-color: #f9f9f9; padding: 20px; color: #333;">
+    <h1 style="color: #005528;">Welcome to %%=v(@academyName)=%%!</h1>
+
+    <p><strong>Assalamu Alaikum wa Rahmatullah %%=v(@studentName)=%%,</strong></p>
+
+    <p>We are excited to confirm your enrollment in our Quran course.</p>
+
+    <p><strong>Course:</strong> %%=v(@courseLevel)=%%</p>
+    <p><strong>Instructor:</strong> %%=v(@instructorName)=%%</p>
+    <p><strong>Start Date:</strong> %%=v(@startDate)=%%</p>
+
+    <p>Please arrive on time and bring a notebook and pen. May Allah make this journey blessed and beneficial.</p>
+
+    <p>If you have any questions, feel free to contact us at <strong>%%=v(@contactEmail)=%%</strong></p>
+
+    <p style="margin-top: 30px;">Jazakum Allahu khayran,<br><strong>%%=v(@academyName)=%% Team</strong></p>
+  </body>
+</html>
