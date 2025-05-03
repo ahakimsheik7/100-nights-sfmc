@@ -1,4 +1,7 @@
-## 📈 Progress Summary
+
+  ![Banner](./banner.png)
+
+  ## 📈 Progress Summary
 
 | Metric                   | Value                |
 |--------------------------|----------------------|
