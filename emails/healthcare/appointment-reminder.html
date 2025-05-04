@@ -1,52 +1,37 @@
-<html>
-<body style="background-color: #f9f9f9; color: #333;">
-<!--
-Project: Healthcare Appointment Reminder Email
-Purpose:
-This email simulates a reminder sent by clinics or hospitals to patients. 
-It uses AMPscript to personalize details such as:
-
-- Patient Name
-- Doctor Name
-- Appointment Date & Time
-- Clinic Location
-
-Technologies Used:
-- HTML (inline CSS for email rendering)
-- AMPscript (Salesforce Marketing Cloud)
-
-Author: Abdulhakim
-Date: April 30, 2025
--->
-
 %%[
-VAR @patientName, @doctorName, @appointmentDate, @appointmentTime, @clinicLocation, @clinicPhone, @clinicEmail, @clinicAddress, @clinicWebsite
-SET @patientName = "Brother Abdulhakim"
-SET @doctorName = "Dr. Aisha Khan"
-SET @appointmentDate = "May 5, 2025"
-SET @appointmentTime = "10:00 AM"
-SET @clinicLocation = "123 Health St, Wellness City"
-SET @clinicPhone = "(123) 456-7890"
-SET @clinicEmail = "care@wellnessclinic.com"
-SET @clinicAddress = "123 Health St, Wellness City, HC 10001"
-SET @clinicWebsite = "www.wellnessclinic.com"
+VAR @patientName, @doctorName, @appointmentDate, @appointmentTime, @clinicName, @clinicPhone
+
+SET @patientName = "Abdulhakim Sheik"
+SET @doctorName = "Dr. Amina Yusuf"
+SET @appointmentDate = "May 8, 2025"
+SET @appointmentTime = "2:50 PM"
+SET @clinicName = "WellCare Medical Center"
+SET @clinicPhone = "(555) 123-4567"
+
+SET @emailSubject = "Appointment Reminder: %%=v(@doctorName)=%% on %%=v(@appointmentDate)=%% at %%=v(@appointmentTime)=%%"
 ]%%
 
-<h1 style="color: #005528;"><strong>Apointment Reminder</strong></h1>
-<p><strong>%%=v(@patientName)=%%,</strong></p>
-</p>
-<p>We are writing to remind you of your upcoming appointment with <strong>Dr. %%=v(@doctorName)=%%</strong>.</p>
-<p>Your appointment is scheduled for <strong>%%=v(@appointmentDate)=%% at %%=v(@appointmentTime)=%%</strong>.</p>
-<p>Location: <strong>%%=v(@clinicLocation)=%%</strong></p>
-<p>Please arrive at least 15 minutes early to complete any necessary paperwork.</p>
-<p>If you have any questions or need to reschedule, please call us at <strong>%%=v(@clinicPhone)=%%</strong>.</p>
-<p>Thank you for choosing our clinic for your healthcare needs.</p>
-<p>Best regards,</p>
-<p><strong>Your Healthcare Team</strong></p>
-<p><strong>Contact Us: %%=v(@clinicEmail)=%%</strong></p>
-<p><strong>Phone: %%=v(@clinicPhone)=%%</strong></p>
-<p><strong>Address: %%=v(@clinicAddress)=%%</strong></p>
-<p><strong>Website: %%=v(@clinicWebsite)=%%</strong></p>
-<p><strong>Follow us on social media:</strong></p>
-</body>
+<html>
+  <body style="font-family: Arial, sans-serif; background-color: #f8f8f8; padding: 20px;">
+    <h2 style="color: #00695c;">Upcoming Appointment Reminder</h2>
+
+    <p>Dear <strong>%%=v(@patientName)=%%</strong>,</p>
+
+    <p>This is a kind reminder of your upcoming appointment with <strong>%%=v(@doctorName)=%%</strong>.</p>
+
+    <p><strong>Date:</strong> %%=v(@appointmentDate)=%%<br>
+       <strong>Time:</strong> %%=v(@appointmentTime)=%%</p>
+
+    <p>📍 <strong>Location:</strong> %%=v(@clinicName)=%%</p>
+
+    <p>Please arrive 10–15 minutes early. If you have any questions, contact us at <strong>%%=v(@clinicPhone)=%%</strong>.</p>
+
+    <p>Thank you for trusting us with your health.</p>
+
+    <p><strong>— The %%=v(@clinicName)=%% Team</strong></p>
+
+    <p style="font-size: 12px; color: #888;">This is an automated message. Please do not reply.</p>
+    <p style="font-size: 12px; color: #888;">If you need to reschedule, please call us at <strong>%%=v(@clinicPhone)=%%</strong>.</p>
+    <p style="font-size: 12px; color: #888;">&copy; 2025 %%=v(@clinicName)=%%. All rights reserved.</p>
+  </body>
 </html>
