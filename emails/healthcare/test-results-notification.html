@@ -1,0 +1,32 @@
+%%[
+VAR @patientName, @resultStatus, @doctorName, @clinicPhone
+
+SET @patientName = "Abdulhakim Sheik"
+SET @resultStatus = "Needs Follow-up"
+SET @doctorName = "Dr. Mariam Ali"
+SET @clinicPhone = "(555) 987-6543"
+]%%
+
+<html>
+  <body style="font-family: Arial, sans-serif; background-color: #ffffff; padding: 20px;">
+    <h2 style="color: #00796b;">Your Test Results Are Ready</h2>
+
+    <p>Dear <strong>%%=v(@patientName)=%%</strong>,</p>
+
+    %%[IF @resultStatus == "Normal" THEN]%%
+      <p>We're happy to inform you that your recent test results came back <strong>normal</strong>. No further action is needed at this time.</p>
+    %%[ELSE]%%
+      <p>Your test results require <strong>follow-up</strong>. Please schedule an appointment with <strong>%%=v(@doctorName)=%%</strong> to review your next steps.</p>
+    %%[ENDIF]%%
+
+    <p>If you have any questions, contact us at <strong>%%=v(@clinicPhone)=%%</strong>.</p>
+
+    <p>Thank you for choosing our clinic for your care.<br>
+    <strong>— Wellness Medical Team</strong></p>
+  </body>
+</html>
+<!-- Compare this snippet from emails/healthcare/appointment-confirmation.html: -->
+<!-- %%[ -->
+<!-- VAR @patientName, @doctorName, @appointmentDate, @appointmentTime, @clinicName, @clinicPhone -->
+<!--  -->
+<!-- SET @patientName = "Abdulhakim Sheik" -->          
