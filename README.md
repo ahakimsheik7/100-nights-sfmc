@@ -1,12 +1,3 @@
-
-  ![Banner](./banner.png)
-
-  ## 📈 Progress Summary
-
-| Metric                   | Value                |
-|--------------------------|----------------------|
-| Total Nights Completed   | 11 nights            |
-| Total Hours Practiced    | 24 hours             |
-| AMPscript Projects Built | 11                   |
-| Most Recent Project      | Conditional Welcome Email |
-| Current Focus            | Logic mastery + SQL next |
+### ✈️ Project 1: Airline Loyalty Upgrade Email
+Used AMPscript logic with conditional rendering to personalize loyalty tier upgrade messages. Focused on dynamic content and clean design.  
+📄 [`loyalty-upgrade.html`](emails/airline/loyalty-upgrade.html)
