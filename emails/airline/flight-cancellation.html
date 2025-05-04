@@ -1,0 +1,33 @@
+%%[
+VAR @passengerName, @flightNumber, @cancellationReason, @rebookedFlight, @rebookedTime
+
+SET @passengerName = "Abdulhakim Sheik"
+SET @flightNumber = "DL4567"
+SET @cancellationReason = "technical issues"
+SET @rebookedFlight = "DL9876"
+SET @rebookedTime = "May 7, 2025 at 2:45 PM"
+]%%
+
+<html>
+  <body style="font-family: Arial, sans-serif; background-color: #fff; padding: 20px;">
+    <h2 style="color: #cc0000;">Important Notice: Flight Cancellation</h2>
+
+    <p>Dear <strong>%%=v(@passengerName)=%%</strong>,</p>
+
+    <p>We regret to inform you that your flight <strong>%%=v(@flightNumber)=%%</strong> has been canceled due to <strong>%%=v(@cancellationReason)=%%</strong>.</p>
+
+    <p>But we’ve already secured a new flight for you:</p>
+    <ul>
+      <li>New Flight Number: <strong>%%=v(@rebookedFlight)=%%</strong></li>
+      <li>Departure Time: <strong>%%=v(@rebookedTime)=%%</strong></li>
+    </ul>
+
+    <p>Please confirm your new booking or reschedule using the button below.</p>
+
+    <p><a href="#" style="background-color:#004080; color:#fff; padding:10px 15px; text-decoration:none;">Confirm New Flight</a></p>
+
+    <p>We apologize for the inconvenience and thank you for your understanding.</p>
+
+    <p>Safe travels,<br><strong>Your Airline Team</strong></p>
+  </body>
+</html>
