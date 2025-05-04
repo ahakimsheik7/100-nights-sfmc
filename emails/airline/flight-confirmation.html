@@ -1,0 +1,19 @@
+%%[
+VAR @passengerName, @flightNumber, @departureTime, @gate
+
+SET @passengerName = "Abdulhakim Sheik"
+SET @flightNumber = "DL1234"
+SET @departureTime = "May 6, 2025 at 8:30 PM"
+SET @gate = "B12"
+]%%
+
+<html>
+  <body style="font-family: Arial, sans-serif;">
+    <h2>Flight Confirmation</h2>
+    <p>Hello <strong>%%=v(@passengerName)=%%</strong>,</p>
+    <p>Your flight <strong>%%=v(@flightNumber)=%%</strong> is confirmed.</p>
+    <p>Departure time: <strong>%%=v(@departureTime)=%%</strong></p>
+    <p>Gate: <strong>%%=v(@gate)=%%</strong></p>
+    <p>Thank you for flying with us!</p>
+  </body>
+</html>
