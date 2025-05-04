@@ -1,0 +1,33 @@
+%%[
+VAR @passengerName, @tier, @originCity, @offerCity, @offerPrice
+
+SET @passengerName = "Abdulhakim Sheik"
+SET @tier = "Gold"
+SET @originCity = "Minneapolis"
+SET @offerCity = "Istanbul"
+SET @offerPrice = "$699"
+]%%
+
+<html>
+  <body style="font-family: 'Arial', sans-serif; padding: 20px; background-color: #f4f4f4;">
+    <h2 style="color: #003366;">Special Getaway Just for You, %%=v(@passengerName)=%%</h2>
+
+    <p>As a <strong>%%=v(@tier)=%%</strong> member, you're invited to take a break from <strong>%%=v(@originCity)=%%</strong> and explore <strong>%%=v(@offerCity)=%%</strong> — our exclusive destination of the month.</p>
+
+    <p>🎉 Book now for just <strong>%%=v(@offerPrice)=%% round-trip</strong>.</p>
+
+    %%[IF @tier == "Gold" THEN]%%
+      <p style="background-color: #fff8e1; padding: 10px; border-left: 4px solid #ffcc00;">
+        💼 <strong>Gold Perk:</strong> You’ll also receive 1 free lounge pass + early boarding.
+      </p>
+    %%[ELSE]%%
+      <p>Upgrade your tier to enjoy more exclusive offers like this.</p>
+    %%[ENDIF]%%
+
+    <p><a href="#" style="background-color: #0070c0; color: #fff; padding: 10px 20px; text-decoration: none;">Book Your Getaway</a></p>
+
+    <p style="font-size: 12px; color: #888;">Offer valid through May 15, 2025. Limited availability.</p>
+
+    <p>Safe travels,<br><strong>Your Airline Team</strong></p>
+  </body>
+</html>
