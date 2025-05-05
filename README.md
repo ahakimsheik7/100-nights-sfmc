@@ -28,6 +28,13 @@ Follow-up message after registration to build warmth and trust.
 
 ### ✈️ Airline Series (Dynamic Travel Communication)
 
+### ✈️ Project: Loyalty Miles Reward Email  
+📄 [`loyalty-miles-reward.html`](emails/airline/loyalty-miles-reward.html)  
+🎯 Personalized reward email to notify customers of their earned miles  
+📸 **Customer View:**  
+![Loyalty Reward Preview](mockups/loyalty-miles-reward.png)
+
+
 #### ✅ Project 4: Loyalty Upgrade Email  
 Dynamic AMPscript-based tier recognition for Gold members and beyond.  
 📄 [`loyalty-upgrade.html`](emails/airline/loyalty-upgrade.html)
@@ -71,6 +78,11 @@ Conditional message for “Normal” or “Follow-up Needed” test result statu
 - 💼 **Client Target:** Airlines • Health Clinics • Islamic Academies • Marketing Agencies
 
 ---
+### 🕌 Project: Sufi Academy – Welcome Email  
+📄 Code with AMPscript: [`welcome-email.html`](emails/sufiacademy/welcome-email.html)  
+📸 Customer Preview:  
+![Sufi Welcome Email](mockups/welcome-email-mockup.png)
+
 
 ## 🌱 Vision & Intention
 
