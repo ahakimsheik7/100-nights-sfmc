@@ -58,6 +58,10 @@ Professional delay update with expected time and optional voucher message.
 ---
 
 ### 🏥 Healthcare Series (Medical + Patient Communication)
+### 🏥 Project: Test Result Notification Email  
+📄 [`test-result-notification.html`](emails/healthcare/test-result-notification.html)  
+📸 **Customer View:**  
+![Test Result Notification](mockups/test-result-notification.png)
 
 #### ✅ Project 9: Appointment Reminder Email  
 Reminds patient of upcoming appointment with doctor, clinic, and contact info.  
