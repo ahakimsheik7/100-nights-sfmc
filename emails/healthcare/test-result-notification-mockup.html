@@ -1,0 +1,73 @@
+<!-- 
+
+This HTML file is a mockup for a healthcare test result notification email. 
+It uses AMPscript to dynamically populate patient-specific information such as the patient's name, test result status, and a link to the patient portal.
+
+Key Features:
+1. Responsive Email Design:
+    - The email is designed to be responsive and compatible with various email clients.
+    - Includes a ghost table for better rendering in Outlook.
+
+2. AMPscript Integration:
+    - AMPscript variables (`@patientName`, `@testResult`, `@portalLink`) are used to personalize the email content.
+    - The `SET` statements assign values to these variables for testing purposes.
+
+3. Styling:
+    - Inline styles are used for email client compatibility.
+    - Additional CSS styles are included within a `<style>` block for better readability and hover effects.
+
+4. Content:
+    - A header section with a title ("Test Result Notification").
+    - A personalized greeting using the patient's name.
+    - A message indicating the test results are ready.
+    - A call-to-action button linking to the patient portal.
+    - A closing message with contact information.
+
+AMPscript Block Documentation:
+- The AMPscript block initializes and sets the following variables:
+  - `@patientName`: The name of the patient (e.g., "John Doe").
+  - `@testResult`: A message indicating the test results are ready.
+  - `@portalLink`: A URL to the patient portal.
+- These variables are dynamically inserted into the email content using `%%=v(@variableName)=%%`.
+
+Usage:
+- Replace the placeholder values in the AMPscript block with actual data from your system.
+- Ensure the email is tested across different email clients for compatibility.
+
+-->
+<!-- %%[
+VAR @patientName, @testResult, @portalLink
+SET @patientName = "John Doe"
+SET @testResult = "Your test results are ready."
+SET @portalLink = "https://www.healthcareprovider.com/patient-portal"
+]%% -->
+<html>
+<body style="margin: 0; padding: 0; background-color: #f4f4f4;">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse; background-color: #f4f4f4;"></table>
+        <tr>
+            <td align="center" style="padding: 20px 0;">
+                <!-- Ghost table for Outlook compatibility -->
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse; background-color: #ffffff; margin: 0 auto; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);">
+                    <tr>
+                        <td align="center" bgcolor="#004080" style="padding: 20px; border-top-left-radius: 8px; border-top-right-radius: 8px;">
+                            <h1 style="color: #ffffff; font-family: Arial, sans-serif; margin: 0;">Test Result Notification</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 20px; font-family: Arial, sans-serif; color: #333333;">
+                            <p style="font-size: 16px; line-height: 1.5; margin: 0 0 10px;">Dear John Doe,</p>
+                            <p style="font-size: 16px; line-height: 1.5; margin: 0 0 20px;">Your test results are ready. Please log in to your patient portal to view them.</p>
+                            <p style="text-align: center; margin: 20px 0;">
+                                <a href="%%=v(@portalLink)=%%" style="display: inline-block; background-color: #007BFF; color: #ffffff; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 16px;">View Test Results</a>                                mv ~/Desktop/test-result-notification.png mockups/
+                            </p>
+                            <p style="font-size: 16px; line-height: 1.5; margin: 0 0 10px;">If you have any questions, please contact our office.</p>
+                            <p style="font-size: 16px; line-height: 1.5; margin: 0;">Best regards,</p>
+                            <p style="font-size: 16px; line-height: 1.5; margin: 0;"><strong>Your Healthcare Provider</strong></p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
