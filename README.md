@@ -1,113 +1,69 @@
-# 💼 Abdulhakim Sheik | SFMC Email Developer & Consultant
+# 📬 AMPscript Email Portfolio — Abdulhakim Sheik
 
-🎯 **Faith-driven builder of email automation and digital outreach**  
-🔧 AMPscript • SQL • HTML/CSS • Git • SFMC • Journey Builder  
-🌍 Serving communities and companies across **education, travel, and healthcare** with meaningful, dynamic customer experiences.
+🌟 Faith-driven | Frontline Email Developer | SFMC & AI Automation Learner
 
----
-
-## 📁 Portfolio Projects (Week 1: Education + Airline + Healthcare)
+This portfolio showcases my real-world AMPscript projects across industries like airlines, healthcare, and online Islamic education (Sufi Academy). All built with HTML, CSS, AMPscript, and mockups — no guesswork.
 
 ---
 
-### 🕌 Sufi Academy Series (Education / Qur’an Outreach)
+## 🔥 Most Recent Project
 
-#### ✅ Project 1: Welcome Email – Qur’an Course Launch  
-Personalized AMPscript welcome email for students and parents.  
-📄 [`welcome-quran-course.html`](emails/sufiacademy/welcome-quran-course.html)
-
-#### ✅ Project 2: Qur’an Initiation Email  
-Sets spiritual tone and preparation for students joining the Qur’an program.  
-📄 [`quran-initiation.html`](emails/sufiacademy/quran-initiation.html)
-
-#### ✅ Project 3: Thank You Email  
-Follow-up message after registration to build warmth and trust.  
-📄 [`thank-you-email.html`](emails/sufiacademy/thank-you-email.html)
-
----
-
-### ✈️ Airline Series (Dynamic Travel Communication)
-
-### ✈️ Project: Loyalty Miles Reward Email  
-📄 [`loyalty-miles-reward.html`](emails/airline/loyalty-miles-reward.html)  
-🎯 Personalized reward email to notify customers of their earned miles  
-📸 **Customer View:**  
-![Loyalty Reward Preview](mockups/loyalty-miles-reward.png)
-
-
-#### ✅ Project 4: Loyalty Upgrade Email  
-Dynamic AMPscript-based tier recognition for Gold members and beyond.  
-📄 [`loyalty-upgrade.html`](emails/airline/loyalty-upgrade.html)
-
-#### ✅ Project 5: Flight Cancellation Email  
-Cancellation message with smart rebooking details and fallback logic.  
-📄 [`flight-cancellation.html`](emails/airline/flight-cancellation.html)
-
-#### ✅ Project 6: Destination Offer Email  
-Tailored city-based travel promotion with loyalty-level offers.  
-📄 [`destination-offer.html`](emails/airline/destination-offer.html)
-
-#### ✅ Project 7: Boarding Pass Email  
-Realistic boarding pass layout with dynamic passenger and flight details.  
-📄 [`boarding-pass.html`](emails/airline/boarding-pass.html)
-
-#### ✅ Project 8: Flight Delay Notification Email  
-Professional delay update with expected time and optional voucher message.  
-📄 [`flight-delay.html`](emails/airline/flight-delay.html)
-
----
-
-### 🏥 Healthcare Series (Medical + Patient Communication)
-### 🏥 Project: Test Result Notification Email  
+### 🏥 Test Result Notification Email  
 📄 [`test-result-notification.html`](emails/healthcare/test-result-notification.html)  
 📸 **Customer View:**  
 ![Test Result Notification](mockups/test-result-notification.png)
 
-#### ✅ Project 9: Appointment Reminder Email  
-Reminds patient of upcoming appointment with doctor, clinic, and contact info.  
-📄 [`appointment-reminder.html`](emails/healthcare/appointment-reminder.html)
+---
 
-#### ✅ Project 10: Test Results Notification Email  
-Conditional message for “Normal” or “Follow-up Needed” test result status.  
-📄 [`test-results-notification.html`](emails/healthcare/test-results-notification.html)
+## 🕌 Sufi Academy Projects
+
+### 📘 Qur’an Course Welcome Email  
+📄 [`welcome-email.html`](emails/sufiacademy/welcome-email.html)  
+📸 Preview:  
+![Welcome Email](mockups/welcome-email-mockup.png)
+
+### 📝 Thank You Email  
+📄 [`thank-you-email.html`](emails/sufiacademy/thank-you-email.html)  
+📸 Preview:  
+![Thank You Email](mockups/thank-you-email.png)
 
 ---
 
-## ⏱️ Practice Log
+## ✈️ Airline Email Projects
 
-- 📅 **Journey Started:** April 28, 2025 — with a Qur’an email from Sufi Academy  
-- ✅ **Total Projects Completed:** 10  
-- 💻 **Tools Used:** AMPscript • HTML/CSS • Git • GitHub • VS Code  
-- 🕒 **100-Night Goal:** In Progress  
-- 💼 **Client Target:** Airlines • Health Clinics • Islamic Academies • Marketing Agencies
+### 🎫 Loyalty Miles Reward Email  
+📄 [`loyalty-miles-reward.html`](emails/airline/loyalty-miles-reward.html)  
+📸 Preview:  
+![Loyalty Email](mockups/loyalty-miles-reward.png)
 
----
-### 🕌 Project: Sufi Academy – Welcome Email  
-📄 Code with AMPscript: [`welcome-email.html`](emails/sufiacademy/welcome-email.html)  
-📸 Customer Preview:  
-![Sufi Welcome Email](mockups/welcome-email-mockup.png)
+### 🛫 Flight Cancellation Alert  
+📄 [`flight-cancellation.html`](emails/airline/flight-cancellation.html)  
+📸 Preview:  
+![Flight Cancelled](mockups/flight-cancellation.png)
 
+### ⏰ Delay Notification  
+📄 [`flight-delay.html`](emails/airline/flight-delay.html)  
+📸 Preview:  
+![Delay Email](mockups/flight-delay.png)
 
-## 🌱 Vision & Intention
-
-> “This journey began with a Qur’an email.  
-> I believe building with purpose — whether for airlines or clinics — is barakah.  
-> My code is not just logic. It’s da’wah, service, and a path toward financial dignity.”
-
----
-
-## 📫 Contact
-
-- 💼 LinkedIn: *(Coming soon)*  
-- 💻 GitHub Projects: Updated Weekly  
-- 🎓 Certification Track: Salesforce Marketing Cloud Email Specialist (50% completed)
+### 🎟 Boarding Pass  
+📄 [`boarding-pass.html`](emails/airline/boarding-pass.html)  
+📸 Preview:  
+![Boarding Pass](mockups/boarding-pass.png)
 
 ---
 
-## 📈 What’s Next (Week 2 Plan)
+## 🛠️ Tech Stack
 
-- 🧠 SQL Query Projects  
-- 🔄 Journey Builder Flows  
-- 🤝 Freelance Profile (Upwork + LinkedIn)  
-- 🧠 Prompt Engineering & AI Automation Track  
-- 📜 Final Cert Prep + Einstein Studio Preview
+- Salesforce Marketing Cloud (AMPscript)
+- HTML, CSS (inline for email clients)
+- Git, GitHub, VS Code
+- AI-assisted automation + prompt engineering
+- Real-world use cases with mockups
+
+---
+
+## 🧭 Goal
+
+🎯 Master SFMC, SQL, and automation — land freelance work with airlines and healthcare teams, and eventually build my own agency, in sha’ Allah.
+
