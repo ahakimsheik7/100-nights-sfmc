@@ -1,0 +1,28 @@
+<html>
+<body>
+    %%[
+VAR @studentName, @classTime, @teacherName, @zoomLink, @classDate
+
+SET @studentName = "Zainah"
+SET @classTime = "5:00 PM (CST)"
+SET @teacherName = "Ustadha Hafsa"
+SET @zoomLink = "https://zoom.us/xyz123"
+SET @classDate = "May 8, 2025"
+]%%
+    <h1 style="color: #004080;">Class Reminder</h1>
+    <p>Dear %%=v(@studentName)=%%,</p>
+    <p>This is a reminder for your upcoming class:</p>
+    <ul>
+        <li><strong>Class Time:</strong> %%=v(@classTime)=%%</li>
+        <li><strong>Teacher:</strong> %%=v(@teacherName)=%%</li>
+        <li><strong>Date:</strong> %%=v(@classDate)=%%</li>
+    </ul>
+    <p>Please join the class using the following link:</p>
+    <p><a href="%%=v(@zoomLink)=%%" style="color: white; background-color: #007BFF; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Join Class Now</a></p>
+    <p>If you have any questions, feel free to reach out.</p>
+    <p>Best regards,</p>
+    <p><strong>Sufia Academy Team</strong></p>
+    <p><strong>Note:</strong> This is an automated reminder. Please do not reply to this email.</p>
+    <p>For any inquiries, contact us at <a href="mailto:        
+</body>
+</html>
