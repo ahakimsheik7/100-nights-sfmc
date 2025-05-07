@@ -1,70 +1,61 @@
-# 📬 AMPscript Email Portfolio — Abdulhakim Sheik
+# 🚀 Email Developer Portfolio – Abdulhakim Sheik
 
-🌟 Faith-driven | Frontline Email Developer | SFMC & AI Automation Learner
-
-This portfolio showcases my real-world AMPscript projects across industries like airlines, healthcare, and online Islamic education (Sufi Academy). All built with HTML, CSS, AMPscript, and mockups — no guesswork.
+💻 AMPscript • HTML/CSS • Salesforce Marketing Cloud  
+📅 100 Nights of Consistency | 🌍 Freelance-Ready | 🕌 Faith-Driven Work
 
 ---
 
-## 🔥 Most Recent Project
+## 📈 Progress Tracker
 
-### 🏥 Test Result Notification Email  
-📄 [`test-result-notification.html`](emails/healthcare/test-result-notification.html)  
-📸 **Customer View:**  
-![Test Result Notification](mockups/test-result-notification.png)
+- **Total Projects Completed:** 12  
+- **Industries Covered:** Airline ✈️ | Healthcare 🏥 | Islamic Education 🕌  
+- **Hours Practiced:** ~40+  
+- **Tools Used:** VS Code, GitHub, Terminal, Canva, Markdown  
+- **Mockups Created:** ✅ All major projects previewed
+- **Last Updated:** May 6, 2025
 
 ---
 
 ## 🕌 Sufi Academy Projects
 
-### 📘 Qur’an Course Welcome Email  
+### Qur’an Class Reminder Email  
+📄 [`class-reminder.html`](emails/sufiacademy/class-reminder.html)  
+📸 Preview:  
+![Class Reminder](mockups/class-reminder.png)
+
+### Qur’an Course Welcome Email  
 📄 [`welcome-email.html`](emails/sufiacademy/welcome-email.html)  
 📸 Preview:  
 ![Welcome Email](mockups/welcome-email-mockup.png)
 
-### 📝 Thank You Email  
+### Thank You Email  
 📄 [`thank-you-email.html`](emails/sufiacademy/thank-you-email.html)  
 📸 Preview:  
 ![Thank You Email](mockups/thank-you-email.png)
 
 ---
 
-## ✈️ Airline Email Projects
+## 🏥 Healthcare Projects
 
-### 🎫 Loyalty Miles Reward Email  
-📄 [`loyalty-miles-reward.html`](emails/airline/loyalty-miles-reward.html)  
+### Test Result Notification Email  
+📄 [`test-result-notification.html`](emails/healthcare/test-result-notification.html)  
 📸 Preview:  
-![Loyalty Email](mockups/loyalty-miles-reward.png)
+![Test Result](mockups/test-result-notification.png)
 
-### 🛫 Flight Cancellation Alert  
-📄 [`flight-cancellation.html`](emails/airline/flight-cancellation.html)  
+### Appointment Reminder Email  
+📄 [`appointment-reminder.html`](emails/healthcare/appointment-reminder.html)  
 📸 Preview:  
-![Flight Cancelled](mockups/flight-cancellation.png)
-
-### ⏰ Delay Notification  
-📄 [`flight-delay.html`](emails/airline/flight-delay.html)  
-📸 Preview:  
-![Delay Email](mockups/flight-delay.png)
-
-### 🎟 Boarding Pass  
-📄 [`boarding-pass.html`](emails/airline/boarding-pass.html)  
-📸 Preview:  
-![Boarding Pass](mockups/boarding-pass.png)
+![Appointment Reminder](mockups/appointment-reminder.png)
 
 ---
 
-## 🛠️ Tech Stack
+## ✈️ Airline Projects
 
-- Salesforce Marketing Cloud (AMPscript)
-- HTML, CSS (inline for email clients)
-- Git, GitHub, VS Code
-- AI-assisted automation + prompt engineering
-- Real-world use cases with mockups
+(List all projects you’ve completed here just like above...)
 
 ---
 
-## 🧭 Goal
+## ✅ Push to GitHub
 
-🎯 Master SFMC, SQL, and automation — land freelance work with airlines and healthcare teams, and eventually build my own agency, in sha’ Allah.
 
-    
+
