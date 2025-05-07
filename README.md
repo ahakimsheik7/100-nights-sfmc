@@ -67,3 +67,4 @@ This portfolio showcases my real-world AMPscript projects across industries like
 
 🎯 Master SFMC, SQL, and automation — land freelance work with airlines and healthcare teams, and eventually build my own agency, in sha’ Allah.
 
+    
