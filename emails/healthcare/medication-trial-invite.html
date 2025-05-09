@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<!-- Medication Trial Invitation Email -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medication Trial Invitation</title>
+</head>
+<body style="margin:0; padding:0; background-color:#f5f5f5; font-family: Arial, sans-serif;">
+  %%[
+    VAR @firstName, @medicationName, @trialStartDate, @trialSummary, @signupLink
+    SET @firstName = AttributeValue("FirstName")
+    SET @medicationName = AttributeValue("MedicationName")
+    SET @trialStartDate = AttributeValue("TrialStartDate")
+    SET @trialSummary = AttributeValue("TrialSummary")
+    SET @signupLink = AttributeValue("SignupLink")
+  ]%%
+
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="max-width: 600px; margin: auto; background-color: #ffffff; padding: 20px;">
+    <tr>
+      <td style="text-align: center; font-size: 22px; font-weight: bold; color: #2d2d2d;">
+        Invitation to Participate in a New Medication Trial
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 20px 0; font-size: 16px; color: #333;">
+        Dear %%=v(@firstName)=%%,
+        <br><br>
+        We are reaching out to invite you to participate in a voluntary clinical trial for <strong>%%=v(@medicationName)=%%</strong>.
+        <br><br>
+        <strong>Trial Summary:</strong><br>
+        %%=v(@trialSummary)=%%
+        <br><br>
+        The trial is set to begin on <strong>%%=v(@trialStartDate)=%%</strong>. Your participation could help shape future treatments and improve lives.
+        <br><br>
+        <a href="%%=RedirectTo(@signupLink)=%%" style="display: inline-block; padding: 12px 20px; background-color: #007CBA; color: white; text-decoration: none; border-radius: 5px;">
+          Join the Trial
+        </a>
+        <br><br>
+        If you have any questions, feel free to reach out to our team.
+        <br><br>
+        Sincerely,<br>
+        The Clinical Research Team
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+<!-- End of email template -->
+<!-- This email template is designed for inviting patients to participate in a clinical trial for a new medication. It includes personalized elements such as the recipient's first name, medication name, trial start date, and a summary of the trial. The email also contains a call-to-action button for signing up for the trial. -->
+<!-- The template is structured with a clean and professional design, ensuring readability and engagement. -->
+<!-- The use of AMPscript allows for dynamic content personalization, enhancing the user experience. -->
