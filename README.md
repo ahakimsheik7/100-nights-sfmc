@@ -1,61 +1,42 @@
-# 🚀 Email Developer Portfolio – Abdulhakim Sheik
+# 📊 Project Tracker – Abdulhakim Sheik
 
-💻 AMPscript • HTML/CSS • Salesforce Marketing Cloud  
-📅 100 Nights of Consistency | 🌍 Freelance-Ready | 🕌 Faith-Driven Work
-
----
-
-## 📈 Progress Tracker
-
-- **Total Projects Completed:** 12  
-- **Industries Covered:** Airline ✈️ | Healthcare 🏥 | Islamic Education 🕌  
-- **Hours Practiced:** ~40+  
-- **Tools Used:** VS Code, GitHub, Terminal, Canva, Markdown  
-- **Mockups Created:** ✅ All major projects previewed
-- **Last Updated:** May 6, 2025
+> **Status:** 20+ AMPscript + HTML Projects Completed ✅  
+> **Folder:** `ampscript-practice/`
 
 ---
 
-## 🕌 Sufi Academy Projects
+## 📍 Weekly Progress Summary
 
-### Qur’an Class Reminder Email  
-📄 [`class-reminder.html`](emails/sufiacademy/class-reminder.html)  
-📸 Preview:  
-![Class Reminder](mockups/class-reminder.png)
-
-### Qur’an Course Welcome Email  
-📄 [`welcome-email.html`](emails/sufiacademy/welcome-email.html)  
-📸 Preview:  
-![Welcome Email](mockups/welcome-email-mockup.png)
-
-### Thank You Email  
-📄 [`thank-you-email.html`](emails/sufiacademy/thank-you-email.html)  
-📸 Preview:  
-![Thank You Email](mockups/thank-you-email.png)
-
----
-
-## 🏥 Healthcare Projects
-
-### Test Result Notification Email  
-📄 [`test-result-notification.html`](emails/healthcare/test-result-notification.html)  
-📸 Preview:  
-![Test Result](mockups/test-result-notification.png)
-
-### Appointment Reminder Email  
-📄 [`appointment-reminder.html`](emails/healthcare/appointment-reminder.html)  
-📸 Preview:  
-![Appointment Reminder](mockups/appointment-reminder.png)
+| Project # | Category     | Title                                      | Path                                                       |
+|-----------|--------------|--------------------------------------------|------------------------------------------------------------|
+| 1         | Welcome      | Sufi Academy – Welcome Email               | `emails/sufiacademy/welcome-email.html`                   |
+| 2         | Reminder     | Qur'an Class Reminder                      | `emails/sufiacademy/class-reminder.html`                  |
+| 3         | Follow-up    | Thank You Email                            | `emails/sufiacademy/thank-you-email.html`                 |
+| 4         | Healthcare   | Appointment Reminder                       | `emails/healthcare/appointment-reminder.html`             |
+| 5         | Healthcare   | Test Result Notification                   | `emails/healthcare/test-result-notification.html`         |
+| 6         | Airline      | Flight Delay Notification                  | `emails/airline/flight-delay.html`                        |
+| 7         | Airline      | Boarding Pass Email                        | `emails/airline/boarding-pass.html`                       |
+| 8         | Airline      | Cancellation Alert                         | `emails/airline/cancellation-email.html`                  |
+| 9         | Airline      | Pre-flight Reminder                        | `emails/airline/pre-flight-reminder.html`                 |
+| 10        | Airline      | Thank You for Flying                       | `emails/airline/post-flight-thank-you.html`               |
+| 11        | Reviews      | Google Review Request Email                | `project1-google-review/emails/google-review-email.html`  |
+| 12        | Feedback     | Internal Feedback Form                     | `project1-google-review/webform/feedback-form.html`       |
+| 13        | Healthcare   | Medication Trial Invite                    | `emails/healthcare/medication-trial-invite.html`          |
+| 14–20     | Mixed        | [Coming from folder structure updates...]  | *(To be filled as pushed)*                                |
 
 ---
 
-## ✈️ Airline Projects
+## ✅ Total Projects: 20+
 
-(List all projects you’ve completed here just like above...)
+- ✅ AMPscript Practice (Data Extension Simulation)
+- ✅ Mobile-Ready Email Layouts
+- ✅ Inline CSS for Email Clients
+- ✅ GitHub Version Control
+- ✅ Markdown Documentation
 
 ---
 
-## ✅ Push to GitHub
-
-
-
+## 📘 Next Steps
+- [ ] Add visual mockups in `/mockups/` folder
+- [ ] Build more healthcare/drug awareness flows
+- [ ] Prep Upwork portfolio links with live demos
