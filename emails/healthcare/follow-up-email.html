@@ -5,49 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Follow-Up Email</title>
 </head>
-<body style="margin:0; padding:0; background-color:#f4f4f4; font-family: Arial, sans-serif;">
-  %%[
-    VAR @firstName, @doctorName, @feedbackLink, @surveyLink, @imageURL
-    SET @firstName = AttributeValue("FirstName")
-    SET @doctorName = AttributeValue("DoctorName")
-    SET @feedbackLink = AttributeValue("FeedbackLink")
-    SET @surveyLink = AttributeValue("SurveyLink")
-    SET @imageURL = AttributeValue("ImageURL")
-  ]%%
-
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 600px; margin: auto; background-color: #ffffff; padding: 20px;">
+<body style="margin: 0; padding: 0; background-color: #f4f4f4; font-family: Arial, sans-serif;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #f4f4f4; margin: 0; padding: 0;">
     <tr>
-      <td style="text-align: center;">
-        <img src="%%=v(@imageURL)=%%" alt="Healthcare Banner" style="max-width: 100%; height: auto; border-radius: 6px;">
-      </td>
-    </tr>
-    <tr>
-      <td style="font-size: 20px; font-weight: bold; color: #2d2d2d; text-align: center; padding: 20px 0 10px;">
-        Thank You for Your Visit, %%=v(@firstName)=%%
-      </td>
-    </tr>
-    <tr>
-      <td style="font-size: 16px; color: #333; padding-bottom: 15px; text-align: center;">
-        We hope your recent appointment with <strong>Dr. %%=v(@doctorName)=%%</strong> was helpful.
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: center; padding: 10px 0;">
-        <a href="%%=RedirectTo(@feedbackLink)=%%" style="display: inline-block; padding: 12px 20px; background-color: #1a73e8; color: white; text-decoration: none; border-radius: 5px;">
-          Leave Feedback
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: center; padding: 10px 0 20px;">
-        <a href="%%=RedirectTo(@surveyLink)=%%" style="display: inline-block; padding: 12px 20px; background-color: #34a853; color: white; text-decoration: none; border-radius: 5px;">
-          Take a Quick Survey
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td style="font-size: 14px; color: #777; text-align: center;">
-        Your input helps us continue to provide excellent care. Thank you!
+      <td align="center" style="padding: 20px 0;">
+        <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; margin: 0 auto; border-collapse: collapse; border: 1px solid #dddddd;">
+          <tr>
+            <td align="center" style="padding: 20px;">
+              <!-- Banner Image -->
+              <img id="banner-image" src="banner-healthcare.png" alt="Banner Placeholder" style="display: block; width: 100%; max-width: 400px; height: auto; border-radius: 6px; margin: 0 auto;">
+              <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                  const bannerImage = document.getElementById("banner-image");
+                  if (window.innerWidth < 600) {
+                    bannerImage.style.maxWidth = "300px";
+                  }
+                });
+              </script>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="font-size: 20px; font-weight: bold; color: #2d2d2d; padding: 20px 0 10px; font-family: Arial, sans-serif;">
+              Thank You for Your Visit, John Doe
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="font-size: 16px; color: #333333; padding: 0 20px 15px; font-family: Arial, sans-serif;">
+              We hope your recent appointment with <strong>Dr. Smith</strong> was helpful.
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="padding: 10px 0;">
+              <a href="https://www.example.com/feedback" style="display: inline-block; padding: 12px 20px; background-color: #1a73e8; color: #ffffff; text-decoration: none; border-radius: 5px; font-family: Arial, sans-serif; font-size: 16px;">
+                Leave Feedback
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="padding: 10px 0 20px;">
+              <a href="https://www.example.com/survey" style="display: inline-block; padding: 12px 20px; background-color: #34a853; color: #ffffff; text-decoration: none; border-radius: 5px; font-family: Arial, sans-serif; font-size: 16px;">
+                Take a Quick Survey
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="font-size: 14px; color: #777777; padding: 0 20px 20px; font-family: Arial, sans-serif;">
+              Your input helps us continue to provide excellent care. Thank you!
+            </td>
+          </tr>
+        </table>
       </td>
     </tr>
   </table>
