@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalized Healthcare Options</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #ffffff;
+      padding: 20px;
+      border: 1px solid #dddddd;
+    }
+    .header {
+      background-color: #007b8a;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    .header p {
+      margin: 10px 0 0;
+      font-size: 16px;
+    }
+    .section {
+      padding: 20px;
+      border-bottom: 1px solid #eeeeee;
+    }
+    .section h2 {
+      font-size: 18px;
+      color: #007b8a;
+      margin: 0 0 10px;
+    }
+    .section p {
+      font-size: 14px;
+      color: #333333;
+      margin: 0 0 15px;
+    }
+    .cta-button {
+      display: inline-block;
+      background-color: #007b8a;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    .footer {
+      font-size: 12px;
+      color: #888888;
+      text-align: center;
+      padding: 20px;
+    }
+    .footer a {
+      color: #007b8a;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header Section -->
+    <div class="header">
+      <h1>Your Personalized Healthcare Options</h1>
+      <p>Choose the right support — all in one email.</p>
+    </div>
+
+    %%[
+      SET @doctor = Lookup("Health_Preferences", "PreferredDoctor", "Email", emailaddr)
+      SET @medication = Lookup("Health_Preferences", "MedicationPlan", "Email", emailaddr)
+      SET @therapy = Lookup("Health_Preferences", "TherapyOptions", "Email", emailaddr)
+      SET @insurance = AttributeValue("InsuranceTier")
+      SET @condition = AttributeValue("HealthCondition")
+    ]%%
+
+    <!-- Doctor Section -->
+    <div class="section">
+      <h2>👨‍⚕️ Your Doctor</h2>
+      <p>Your assigned healthcare provider is: <strong>%%=v(@doctor)=%%</strong></p>
+      <a href="https://www.healthcare.org/choose-doctor" class="cta-button">Change Doctor</a>
+    </div>
+
+    <!-- Medication Section -->
+    <div class="section">
+      <h2>💊 Medication Plan</h2>
+      <p>Your recommended plan: <strong>%%=v(@medication)=%%</strong></p>
+      <a href="https://www.healthcare.org/medications" class="cta-button">Review Options</a>
+    </div>
+
+    <!-- Therapy Section -->
+    <div class="section">
+      <h2>🧠 Therapy & Wellness</h2>
+      <p>Suggested programs: <strong>%%=v(@therapy)=%%</strong></p>
+      <a href="https://www.healthcare.org/therapy" class="cta-button">Explore Therapy</a>
+    </div>
+
+    %%[ IF @insurance == "Premium" THEN ]%%
+      <!-- Premium Perks Section -->
+      <div class="section">
+        <h2>🌟 Premium Member Perks</h2>
+        <p>Enjoy complimentary annual checkups, priority scheduling, and wellness coaching.</p>
+        <a href="https://www.healthcare.org/premium-benefits" class="cta-button">View Your Benefits</a>
+      </div>
+    %%[ ENDIF ]%%
+
+    %%[ IF @condition == "Chronic" THEN ]%%
+      <!-- Chronic Care Section -->
+      <div class="section">
+        <h2>📋 Specialized Support</h2>
+        <p>We’ve tailored a support path to help manage your chronic condition with expert care teams and routine follow-ups.</p>
+        <a href="https://www.healthcare.org/chronic-care" class="cta-button">View Chronic Care Options</a>
+      </div>
+    %%[ ENDIF ]%%
+
+    <!-- Contact Section -->
+    <div class="section">
+      <p>If you have questions about your care plan or need assistance, our team is here to help you every step of the way.</p>
+      <a href="https://www.healthcare.org/contact" class="cta-button">Contact Support</a>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+      &copy; 2025 YourHealth Network. All rights reserved.<br>
+      You are receiving this email because of your participation in our wellness programs.<br>
+      <a href="https://www.healthcare.org/unsubscribe">Unsubscribe</a> | <a href="https://www.healthcare.org/privacy-policy">Privacy Policy</a>
+    </div>
+  </div>
+</body>
+</html>
