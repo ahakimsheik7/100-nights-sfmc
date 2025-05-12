@@ -1,42 +1,44 @@
-# 📊 Project Tracker – Abdulhakim Sheik
+# ✈️ Delta Airlines – Summer AMPscript Email
 
-> **Status:** 20+ AMPscript + HTML Projects Completed ✅  
-> **Folder:** `ampscript-practice/`
+**Night 23 of 100-Night Email Dev Challenge**
 
----
-
-## 📍 Weekly Progress Summary
-
-| Project # | Category     | Title                                      | Path                                                       |
-|-----------|--------------|--------------------------------------------|------------------------------------------------------------|
-| 1         | Welcome      | Sufi Academy – Welcome Email               | `emails/sufiacademy/welcome-email.html`                   |
-| 2         | Reminder     | Qur'an Class Reminder                      | `emails/sufiacademy/class-reminder.html`                  |
-| 3         | Follow-up    | Thank You Email                            | `emails/sufiacademy/thank-you-email.html`                 |
-| 4         | Healthcare   | Appointment Reminder                       | `emails/healthcare/appointment-reminder.html`             |
-| 5         | Healthcare   | Test Result Notification                   | `emails/healthcare/test-result-notification.html`         |
-| 6         | Airline      | Flight Delay Notification                  | `emails/airline/flight-delay.html`                        |
-| 7         | Airline      | Boarding Pass Email                        | `emails/airline/boarding-pass.html`                       |
-| 8         | Airline      | Cancellation Alert                         | `emails/airline/cancellation-email.html`                  |
-| 9         | Airline      | Pre-flight Reminder                        | `emails/airline/pre-flight-reminder.html`                 |
-| 10        | Airline      | Thank You for Flying                       | `emails/airline/post-flight-thank-you.html`               |
-| 11        | Reviews      | Google Review Request Email                | `project1-google-review/emails/google-review-email.html`  |
-| 12        | Feedback     | Internal Feedback Form                     | `project1-google-review/webform/feedback-form.html`       |
-| 13        | Healthcare   | Medication Trial Invite                    | `emails/healthcare/medication-trial-invite.html`          |
-| 14–20     | Mixed        | [Coming from folder structure updates...]  | *(To be filled as pushed)*                                |
+This project is part of a hands-on email development series focused on Salesforce Marketing Cloud (SFMC), AMPscript, and email compatibility best practices.
 
 ---
 
-## ✅ Total Projects: 20+
-
-- ✅ AMPscript Practice (Data Extension Simulation)
-- ✅ Mobile-Ready Email Layouts
-- ✅ Inline CSS for Email Clients
-- ✅ GitHub Version Control
-- ✅ Markdown Documentation
+## 📩 Project Overview
+This email was built for Delta Airlines to:
+- Promote personalized summer vacation destinations
+- Highlight seasonal pricing based on Data Extension lookups
+- Offer tailored messaging for new, returning, or loyalty members
+- Ensure full compatibility with Outlook, Gmail, and Apple Mail
+- Use responsive HTML/CSS and inline AMPscript personalization
 
 ---
 
-## 📘 Next Steps
-- [ ] Add visual mockups in `/mockups/` folder
-- [ ] Build more healthcare/drug awareness flows
-- [ ] Prep Upwork portfolio links with live demos
+## 🧠 Features
+- **AMPscript lookups** from "Travel_Deals" DE
+- **Dynamic sections** using `IF` conditions for LoyaltyStatus
+- **Mobile-friendly layout** with inline styles for rendering across major email clients
+- **Strong CTA** with brand messaging and destination appeal
+
+---
+
+## 🗂️ Related Tabs & Projects
+- `prompt-engineer`: Library of reusable prompts used to generate and refine code
+- `promotional-email.html`: This campaign's working HTML/AMPscript build
+- `learnampscript`: Collection of earlier AMPscript learning projects
+- `project1-google-review`: Google review request email project
+- `emails/healthcare-trial`: Healthcare dynamic content trial invitation
+
+---
+
+## 📅 Progress
+This file marks **night 23** of a 100-night journey mastering SFMC, AMPscript, and email development.
+
+Stay tuned for more campaigns, templates, and automation builds.
+
+---
+
+## 📬 Author
+Crafted by a Salesforce Marketing Cloud developer on a mission to create 100 practical, production-ready email projects.
