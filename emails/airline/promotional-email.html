@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 20px;
+    }
+    .hero {
+      background-color: #003366;
+      color: #ffffff;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .section {
+      padding: 20px;
+    }
+    .highlight {
+      color: #d61a3c;
+      font-weight: bold;
+    }
+    .cta-button {
+      background-color: #d61a3c;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 12px 20px;
+      display: inline-block;
+      border-radius: 4px;
+      margin-top: 20px;
+    }
+    .footer {
+      font-size: 12px;
+      color: #888;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+    %%[
+        VAR @FirstName, @LoyaltyStatus
+        SET @FirstName = AttributeValue("FirstName")
+        SET @LoyaltyStatus = AttributeValue("LoyaltyStatus")
+    ]%%                                             
+  <div class="container">
+    <div class="hero">
+      <h1>%%=v(@FirstName)=%%, Discover Your Summer Escape</h1>
+      <p>Fly smarter. Travel better. Experience Delta.</p>
+    </div>
+
+    <div class="section">
+      %%[
+        SET @destination = Lookup("Travel_Deals", "Destination", "Email", emailaddr)
+        SET @price = Lookup("Travel_Deals", "Price", "Email", emailaddr)
+      ]%%
+
+      <p>Ready to explore <span class="highlight">%%=v(@destination)=%%</span>? Book now for as low as <span class="highlight">$%%=v(@price)=%%</span>.</p>
+
+      %%[ IF AttributeValue("LoyaltyStatus") == "New" THEN ]%%
+        <p>Welcome aboard! Enjoy a <strong>15% discount</strong> on your first Delta getaway and receive a complimentary welcome kit.</p>
+      %%[ ELSEIF AttributeValue("LoyaltyStatus") == "Returning" THEN ]%%
+        <p>Thanks for coming back! Use your SkyMiles to unlock exclusive summer deals and seat upgrades.</p>
+      %%[ ELSE ]%%
+        <p>Not sure where to go? Let us help you plan your perfect summer getaway — tailored just for you.</p>
+      %%[ ENDIF ]%%
+
+      <p>Why Delta?</p>
+      <ul>
+        <li>Industry-leading on-time performance</li>
+        <li>Personalized inflight experiences</li>
+        <li>Flexible reward options and trusted safety</li>
+      </ul>
+
+      <a href="https://www.delta.com/book" class="cta-button">Book Your Trip Now</a>
+    </div>
+
+    <div class="footer">
+      &copy; 2025 Delta Air Lines. All rights reserved.<br>
+      This email was sent to you as part of your Delta SkyMiles membership or opt-in subscription.
+    </div>
+  </div>
+</body>
+</html>
