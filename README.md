@@ -1,44 +1,66 @@
-# ✈️ Delta Airlines – Summer AMPscript Email
+# 📖 Weekly Tajweed Class Email – Sufi Academy
 
-**Night 23 of 100-Night Email Dev Challenge**
+**Part of the 100-Night Email Development Challenge**
 
-This project is part of a hands-on email development series focused on Salesforce Marketing Cloud (SFMC), AMPscript, and email compatibility best practices.
+This project focuses on creating a production-ready email for Sufi Academy's **Weekly Tajweed Class**. The email is designed to promote the class, encourage registrations, and ensure compatibility across all major email clients like Gmail, Outlook, and Apple Mail.
 
 ---
 
 ## 📩 Project Overview
-This email was built for Delta Airlines to:
-- Promote personalized summer vacation destinations
-- Highlight seasonal pricing based on Data Extension lookups
-- Offer tailored messaging for new, returning, or loyalty members
-- Ensure full compatibility with Outlook, Gmail, and Apple Mail
-- Use responsive HTML/CSS and inline AMPscript personalization
+
+The **Weekly Tajweed Class Email** was built to:
+- Promote the weekly Tajweed class and its benefits.
+- Provide a clear and engaging call-to-action (CTA) for registration.
+- Include a personalized signature from the Director of the Tajweed Department.
+- Ensure full compatibility with major email clients using responsive HTML and inline CSS.
+- Optimize for SEO with relevant meta tags and alt text for images.
 
 ---
 
 ## 🧠 Features
-- **AMPscript lookups** from "Travel_Deals" DE
-- **Dynamic sections** using `IF` conditions for LoyaltyStatus
-- **Mobile-friendly layout** with inline styles for rendering across major email clients
-- **Strong CTA** with brand messaging and destination appeal
+
+- **Responsive Design**: The email is fully responsive and mobile-friendly, ensuring proper rendering on all devices.
+- **SEO Optimization**: Added meta tags, descriptive alt text, and semantic HTML for better accessibility and search engine visibility.
+- **Dynamic Content**: AMPscript placeholders were used for personalization (if applicable).
+- **Cross-Client Compatibility**: Inline CSS and email-safe HTML ensure compatibility with Gmail, Outlook, Yahoo, and Apple Mail.
+- **Clear CTA**: A centered "Register for the Class" button encourages user engagement.
+- **Signature Section**: Includes a professional signature from the Director of the Tajweed Department.
 
 ---
 
-## 🗂️ Related Tabs & Projects
-- `prompt-engineer`: Library of reusable prompts used to generate and refine code
-- `promotional-email.html`: This campaign's working HTML/AMPscript build
-- `learnampscript`: Collection of earlier AMPscript learning projects
-- `project1-google-review`: Google review request email project
-- `emails/healthcare-trial`: Healthcare dynamic content trial invitation
+## 🛠️ Development Process
 
----
+1. **Planning**:
+   - Defined the email's purpose: to promote the Tajweed class and drive registrations.
+   - Outlined the structure: logo, banner, content, CTA, and signature sections.
 
-## 📅 Progress
-This file marks **night 23** of a 100-night journey mastering SFMC, AMPscript, and email development.
+2. **Design**:
+   - Created a clean and professional layout using semantic HTML and inline CSS.
+   - Ensured the design was responsive and visually appealing on both desktop and mobile devices.
 
-Stay tuned for more campaigns, templates, and automation builds.
+3. **Implementation**:
+   - Added a centered **Register for the Class** button for better engagement.
+   - Included a professional signature section with the Director's name and title.
+   - Used descriptive alt text for images to improve accessibility and SEO.
+
+4. **Testing**:
+   - Verified the email's rendering across major email clients (Gmail, Outlook, Yahoo, Apple Mail).
+   - Tested responsiveness on mobile devices using media queries.
+   - Ensured all links and images were functional and properly aligned.
+
+5. **Final Touches**:
+   - Added meta tags for SEO, including `description`, `keywords`, and `author`.
+   - Reviewed the email for compliance with email marketing best practices.
 
 ---
 
 ## 📬 Author
-Crafted by a Salesforce Marketing Cloud developer on a mission to create 100 practical, production-ready email projects.
+
+Crafted by a Salesforce Marketing Cloud developer as part of a 100-night journey to create practical, production-ready email projects. This project demonstrates expertise in AMPscript, responsive email design, and cross-client compatibility.
+
+---
+
+## 📅 Progress
+
+This project marks **night 24** of the 100-night challenge. Stay tuned for more dynamic email campaigns, templates, and automation builds.
+
