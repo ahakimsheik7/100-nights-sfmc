@@ -1,73 +1,42 @@
-# 📖 Weekly Tajweed Class Email – Sufi Academy
+# ✈️ Delta Airlines Summer Getaway Email Campaign
 
-**Part of the 100-Night Email Development Challenge**
+**A professional, responsive, and accessible email template designed for Delta Airlines' Summer Getaway campaign.**
 
-This project focuses on creating a production-ready email for Sufi Academy's **Weekly Tajweed Class**. The email is designed to promote the class, encourage registrations, and ensure compatibility across all major email clients like Gmail, Outlook, and Apple Mail.
+This project demonstrates expertise in email development, including responsive design, SEO optimization, accessibility for visually impaired users, and compatibility with major email service providers (ESPs) like Gmail, Outlook, and Yahoo. The email promotes Delta Airlines' exclusive seasonal deals for top destinations.
 
 ---
 
 ## 📩 Project Overview
 
-The **Weekly Tajweed Class Email** was built to:
-- Promote the weekly Tajweed class and its benefits.
-- Provide a clear and engaging call-to-action (CTA) for registration.
-- Include a personalized signature from the Director of the Tajweed Department.
-- Ensure full compatibility with major email clients using responsive HTML and inline CSS.
-- Optimize for SEO with relevant meta tags and alt text for images.
+The **Delta Airlines Summer Getaway Email** was built to:
+- Promote Delta Airlines' seasonal deals for destinations like Las Vegas, New York City, Chicago, and Miami.
+- Provide a visually appealing and accessible design for all users, including those with visual impairments.
+- Ensure compatibility across major email clients using table-based layouts and inline styles.
+- Optimize for SEO with relevant meta tags and descriptive alt text for images.
 
 ---
 
 ## 🧠 Features
 
-- **Responsive Design**: The email is fully responsive and mobile-friendly, ensuring proper rendering on all devices.
-- **SEO Optimization**: Added meta tags, descriptive alt text, and semantic HTML for better accessibility and search engine visibility.
-- **Dynamic Content**: AMPscript placeholders were used for personalization (if applicable).
-- **Cross-Client Compatibility**: Inline CSS and email-safe HTML ensure compatibility with Gmail, Outlook, Yahoo, and Apple Mail.
-- **Clear CTA**: A centered "Register for the Class" button encourages user engagement.
-- **Signature Section**: Includes a professional signature from the Director of the Tajweed Department.
+1. **Responsive Design**:
+   - Fully responsive layout that adapts to both desktop and mobile devices.
+   - Media queries ensure a seamless experience on smaller screens.
+
+2. **Accessibility**:
+   - High-contrast colors and readable font sizes for visually impaired users.
+   - Focus and hover states for interactive elements like buttons.
+
+3. **SEO Optimization**:
+   - Meta tags for `description`, `keywords`, and `author` to improve search engine visibility.
+   - Descriptive `alt` attributes for images to enhance accessibility and SEO.
+
+4. **Cross-Client Compatibility**:
+   - Table-based layout ensures consistent rendering across email clients like Gmail, Outlook, and Yahoo.
+   - Inline styles for critical elements to prevent rendering issues.
+
+5. **Call-to-Action (CTA)**:
+   - Clear and engaging CTAs for each destination, encouraging users to book their flights.
 
 ---
 
-## 🛠️ Development Process
-
-1. **Planning**:
-   - Defined the email's purpose: to promote the Tajweed class and drive registrations.
-   - Outlined the structure: logo, banner, content, CTA, and signature sections.
-
-2. **Design**:
-   - Created a clean and professional layout using semantic HTML and inline CSS.
-   - Ensured the design was responsive and visually appealing on both desktop and mobile devices.
-
-3. **Implementation**:
-   - Added a centered **Register for the Class** button for better engagement.
-   - Included a professional signature section with the Director's name and title.
-   - Used descriptive alt text for images to improve accessibility and SEO.
-
-4. **Testing**:
-   - Verified the email's rendering across major email clients (Gmail, Outlook, Yahoo, Apple Mail).
-   - Tested responsiveness on mobile devices using media queries.
-   - Ensured all links and images were functional and properly aligned.
-
-5. **Final Touches**:
-   - Added meta tags for SEO, including `description`, `keywords`, and `author`.
-   - Reviewed the email for compliance with email marketing best practices.
-
----
-
-## 📂 Assets
-
-- **sa-banner.png**: A banner image used in the mockups for the Weekly Tajweed Class email. This file is located in the `mockups` folder and is used to visually represent the email's banner section.
-- **sa-signature.png**: A signature image used in the mockups for the Weekly Tajweed Class email. This file is located in the `mockups` folder and is used to visually represent the signature section.
-
----
-
-## 📬 Author
-
-Crafted by a Salesforce Marketing Cloud developer as part of a 100-night journey to create practical, production-ready email projects. This project demonstrates expertise in AMPscript, responsive email design, and cross-client compatibility.
-
----
-
-## 📅 Progress
-
-This project marks **night 24** of the 100-night challenge. Stay tuned for more dynamic email campaigns, templates, and automation builds.
-
+## 📂 Project Structure
