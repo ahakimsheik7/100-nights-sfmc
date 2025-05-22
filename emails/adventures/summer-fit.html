@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INA MARI | Summer Health Campaign</title>
+  <style>
+    body { margin: 0; padding: 0; background: #f4f4f4; font-family: Arial, sans-serif; }
+    .container { max-width: 600px; margin: auto; background: #ffffff; padding: 15px; }
+    .logo { text-align: center; padding: 10px; background-color: #e3e3e3; }
+    .logo img { max-width: 120px; height: auto; }
+    .banner img { width: 100%; height: auto; border-radius: 6px; margin: 10px 0; }
+    .header { text-align: center; padding: 10px 0; color: #2e4d30; }
+    .header h1 { margin: 0; font-size: 18px; line-height: 1.4; }
+    .content { color: #555555; font-size: 14px; line-height: 1.4; padding: 10px 15px; text-align: center; }
+    .cta-button {
+      display: inline-block;
+      background-color: #e67e22;
+      color: #ffffff;
+      padding: 10px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    .footer {
+      font-size: 10px;
+      color: #888888;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="logo">
+      <img src="images/inamari-logo.png" alt="INA MARI Logo">
+    </div>
+
+    <div class="banner">
+      <img src="images/inamari-walal.png" alt="INA MARI Summer Banner">
+    </div>
+
+    <div class="header">
+      <h1>Reconnect with Nature This Summer</h1>
+    </div>
+
+    <div class="content">
+      <p>
+        <!-- %%[ SET @firstName = AttributeValue("FirstName") ]%% -->
+        <!-- Hello %%=v(@firstName)=%%, -->
+        Embrace the outdoors with INA MARI. Rejuvenate your body and mind on the trails.
+      </p>
+      <p>
+        <!-- %%[ IF @membershipLevel == "Gold" THEN ]%% -->
+        Exclusive perks await Gold Members!
+        <!-- %%[ ELSE ]%% -->
+        Join our wellness circle today.
+        <!-- %%[ ENDIF ]%% -->
+      </p>
+      <a href="https://www.inamari.com/join" class="cta-button">Join Now</a>
+    </div>
+
+    <div class="footer">
+      &copy; 2025 INA MARI. All rights reserved.<br>
+      You're receiving this email as part of our wellness community.
+    </div>
+  </div>
+</body>
+</html>
