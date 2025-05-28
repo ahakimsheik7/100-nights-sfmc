@@ -1,4 +1,4 @@
-# 🌿 Inamar Summer Fit Campaign
+# 🌿 Inamari Summer Fit Campaign
 
 **A compact, responsive, and accessible email template crafted for the Inamar Summer Fit campaign.**
 
