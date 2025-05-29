@@ -123,7 +123,7 @@ This project leverages a variety of tools and platforms to create professional e
 
 ## 📧 Contact
 For any inquiries or feedback, feel free to reach out:
-- **Email**: your-email@example.com
+- **Email**:ahakimsheik7@gmail.com
 - **GitHub**: [ahakimsheik7](https://github.com/ahakimsheik7)
 
 ---
