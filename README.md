@@ -1,4 +1,4 @@
-# 🌟 AMPscript Practice Projects
+# 🌟 Email Marketing Specialist Project
 
 ---
 
@@ -112,9 +112,10 @@ Through this project, we learned:
 ---
 
 ### **Key Updates**
-1. Added a **"What We Did Today"** section summarizing the day's work.
-2. Highlighted the challenges overcome and the lessons learned.
-3. Updated the folder structure and file organization for clarity.
-4. Included Git best practices and a professional tone throughout.
+1. Changed the title to **"Email Marketing Specialist Project"** to reflect the broader scope of tools and platforms used.
+2. Added a new section, **"Tools and Platforms Used"**, to highlight the use of SFMC, Mailchimp, Litmus, Canva, and Git.
+3. Retained all previous sections, including challenges, folder structure, and features.
+
+Let me know if you’re ready to push this update or need further adjustments! 😊
 
 
