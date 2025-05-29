@@ -1,4 +1,4 @@
-# 🌟 Email Marketing Specialist Project
+ Email Marketing Specialist Projects
 
 ---
 
