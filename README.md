@@ -112,10 +112,10 @@ Through this project, we learned:
 ---
 
 ### **Key Updates**
-1. Changed the title to **"Email Marketing Specialist Project"** to reflect the broader scope of tools and platforms used.
-2. Added a new section, **"Tools and Platforms Used"**, to highlight the use of SFMC, Mailchimp, Litmus, Canva, and Git.
+ Project"** to reflect the broader scope of tools and platforms used.
+1. Added a new section, **"Tools and Platforms Used"**, to highlight the use of SFMC, Mailchimp, Litmus, Canva, and Git.
 3. Retained all previous sections, including challenges, folder structure, and features.
 
-Let me know if you’re ready to push this update or need further adjustments! 😊
+
 
 
