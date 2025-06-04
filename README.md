@@ -1,6 +1,24 @@
 # 🌟 Email Marketing Specialist Project
 
-This repository showcases a collection of professional, responsive, and accessible email templates designed for various industries. Each project demonstrates expertise in **HTML**, **CSS**, **AMPscript**, and **email client compatibility**, while leveraging tools like **Salesforce Marketing Cloud (SFMC)**, **Mailchimp**, **Litmus**, and **Canva**.
+---
+
+## 🛠️ What We Worked On Tonight
+
+Tonight, we focused on refining and enhancing the **email signature** and **landing page designs** to ensure they are professional, visually appealing, and compatible across all major platforms. Here's a summary of the key updates:
+
+1. **Email Signature**:
+   - Improved the logo's visibility by increasing its size and ensuring it aligns perfectly with the contact information.
+   - Aligned all signature content (logo, name, title, email, website, phone, address, and LinkedIn profile) to the left for a clean and professional look.
+   - Removed the CTA button to simplify the signature and focus on essential contact details.
+   - Ensured compatibility with all major email clients (e.g., Gmail, Outlook, Yahoo) using table-based layouts.
+
+2. **Landing Page**:
+   - Enhanced the layout to make it responsive and user-friendly.
+   - Improved the logo section with better visibility and alignment.
+   - Organized content into sections for better readability and engagement.
+   - Ensured accessibility by using high-contrast colors, readable font sizes, and descriptive `alt` attributes for images.
+
+These updates ensure that the designs are polished, professional, and ready for deployment.
 
 ---
 
