@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signature</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        color: #333;
+      }
+      table {
+        border-spacing: 0;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+
+      /* Signature Container */
+      .signature-container {
+        border-top: 1px solid #ccc;
+        padding-top: 10px;
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: left; /* Align signature content to the left */
+      }
+
+      /* Logo */
+      .logo-img {
+        width: 80px; /* Increased size for better visibility */
+        height: auto;
+        vertical-align: middle;
+      }
+
+      /* Contact Info */
+      .contact-info td {
+        padding: 4px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!--[if mso]>
+    <table width="600" cellpadding="0" cellspacing="0" border="0">
+    <tr><td>
+    <![endif]-->
+    <table class="signature-container" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;">
+      <tr>
+        <td>
+          <!-- Ghost Table for spacing -->
+          <table cellpadding="0" cellspacing="0" width="100%" style="height:10px;"><tr><td>&nbsp;</td></tr></table>
+          <table cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+              <!-- Logo -->
+              <td style="width: 90px; vertical-align: top;">
+                <img src="../images/sa-logo.png" alt="Sufi Academy Logo" class="logo-img">
+              </td>
+              <!-- Contact Info -->
+              <td style="padding-left: 15px; vertical-align: top;">
+                <strong style="font-size: 16px; color: #004d4d;">Abdulhakim Sheik</strong><br>
+                <span style="font-size: 14px; color: #666;">Director & Founder, Sufi Academy</span><br>
+                <a href="mailto:abdulhakim@sufiacademy.org">abdulhakim@sufiacademy.org</a><br>
+                <a href="https://www.sufiacademy.org" target="_blank">www.sufiacademy.org</a><br>
+                <span style="font-size: 14px; color: #666;">Phone: +1 (123) 456-7890</span><br>
+                <span style="font-size: 14px; color: #666;">Address: 123 Sufi Lane, City, State, ZIP</span><br>
+                <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank">LinkedIn Profile</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <!--[if mso]>
+    </td></tr>
+    </table>
+    <![endif]-->
+  </body>
+</html>
