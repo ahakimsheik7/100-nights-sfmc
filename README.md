@@ -2,9 +2,32 @@
 
 ---
 
+## 📅 Latest Project: Arafah Day Email
+
+### **Project Overview**
+The **Arafah Day Email** is a professional and responsive email designed to highlight the significance of Arafah Day. It includes a branded logo section for Sufi Academy, engaging content, and a clear call-to-action link.
+
+### **Steps Taken**
+1. **Added Branding**:
+   - Included the Sufi Academy logo at the top for better recognition and professionalism.
+2. **Content Refinement**:
+   - Highlighted the importance of Arafah Day with engaging and informative text.
+3. **Responsive Design**:
+   - Ensured the email renders perfectly on both desktop and mobile devices.
+4. **Cross-Client Compatibility**:
+   - Used table-based layouts and inline styles for consistent rendering across email clients.
+
+### **Key Highlights**
+- **Branded Logo Section**: Added the Sufi Academy logo for enhanced branding.
+- **Engaging Content**: Explained the significance of Arafah Day with a focus on its spiritual importance.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Professional Layout**: Organized sections for better readability and engagement.
+
+---
+
 ## 🛠️ What We Worked On Tonight
 
-Tonight, we focused on refining and enhancing the **email signature** and **landing page designs** to ensure they are professional, visually appealing, and compatible across all major platforms. Here's a summary of the key updates:
+Tonight, we focused on refining and enhancing the **email signature**, **Arafah Day email**, and **landing page designs** to ensure they are professional, visually appealing, and compatible across all major platforms. Here's a summary of the key updates:
 
 1. **Email Signature**:
    - Improved the logo's visibility by increasing its size and ensuring it aligns perfectly with the contact information.
@@ -24,11 +47,10 @@ These updates ensure that the designs are polished, professional, and ready for 
 
 ## 📖 Table of Contents
 1. [Showcase: Projects Across Industries](#-showcase-projects-across-industries)
-2. [Latest Project](#-latest-project)
-3. [Key Features](#-key-features)
-4. [Overcoming Challenges](#-overcoming-challenges)
-5. [Tools and Platforms Used](#-tools-and-platforms-used)
-6. [Contact](#-contact)
+2. [Key Features](#-key-features)
+3. [Overcoming Challenges](#-overcoming-challenges)
+4. [Tools and Platforms Used](#-tools-and-platforms-used)
+5. [Contact](#-contact)
 
 ---
 
@@ -57,24 +79,6 @@ These updates ensure that the designs are polished, professional, and ready for 
 - **Walking in the Rain Campaign**:
   - Promotes waterproof gear for rainy adventures.
   - Features a visually appealing product showcase with CTAs.
-
----
-
-## 📅 Latest Project: Delta Loyalty Email Template
-
-### **Project Overview**
-The **Delta Loyalty Email Template** is a professional and responsive email designed for Delta Airlines loyalty members. It highlights exclusive benefits for **Gold** and **Silver** members, encouraging engagement and bookings.
-
-### **Time Spent**
-We dedicated approximately **6 hours** to this project, focusing on:
-- **Responsive Design**: Ensuring the email renders perfectly on both desktop and mobile devices.
-- **Personalization**: Tailored sections for Gold and Silver members with unique offers.
-- **Cross-Client Compatibility**: Testing and optimizing for major email clients like **Outlook**, **Gmail**, and others.
-
-### **Key Highlights**
-- **Dynamic Content**: Personalized greetings and content for loyalty members.
-- **Modern Styling**: Subtle box shadows, rounded corners, and hover effects for CTAs.
-- **Professional Layout**: Organized sections for better readability and engagement.
 
 ---
 
