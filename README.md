@@ -2,19 +2,19 @@
 
 ---
 
-## 📅 Latest Project: Love & Kindness Email
+## 📅 Latest Project: Eat Healthy Email
 
 ### **Project Overview**
-The **Love & Kindness Email** is a professional and responsive email designed to inspire reflection and gratitude. It highlights the beauty of simplicity and the importance of kindness in everyday life, while maintaining a clean and visually appealing design.
+The **Eat Healthy Email** is a professional and responsive email designed to inspire healthy eating habits while honoring faith. It highlights the importance of gratitude and wellness through engaging content and a clean, visually appealing design.
 
 ### **Steps Taken**
 1. **Designing in Canva**:
    - Created visually appealing banners and assets to complement the email content.
-   - Focused on simplicity and emotional resonance to align with the theme of kindness.
+   - Focused on simplicity and emotional resonance to align with the theme of healthy living.
 
 2. **Editing Styles and Coding**:
-   - Used **HTML**, **CSS**, and **JavaScript** to structure and style the email.
-   - Incorporated **AMPscript** for dynamic personalization and interactivity.
+   - Used **HTML** and **CSS** to structure and style the email.
+   - Incorporated responsive design principles to ensure compatibility across devices.
 
 3. **Testing in Litmus**:
    - Tested the email across multiple devices and email clients (e.g., Gmail, Outlook, Yahoo) to ensure compatibility.
@@ -25,18 +25,19 @@ The **Love & Kindness Email** is a professional and responsive email designed to
    - Ensured high contrast and clear typography for better accessibility.
 
 5. **Effort and Time**:
-   - Spent approximately **6 hours** designing, coding, testing, and refining the email to achieve a polished and professional result.
+   - Spent approximately **5 hours** designing, coding, testing, and refining the email to achieve a polished and professional result.
 
 ### **Key Highlights**
-- **Responsive Layout**: Ensured the email renders perfectly on both desktop and mobile devices.
+- **Centered Logo**: Ensured the logo is prominently displayed and centered for better branding.
+- **Responsive Layout**: Optimized the email for both desktop and mobile devices.
+- **Call-to-Action**: Added a clear and engaging button to encourage user interaction.
 - **Professional Aesthetic**: Used modern design principles to create a visually appealing and user-friendly experience.
-- **Optimized Content**: Focused on delivering impactful and concise messaging.
 
 ---
 
 ## 🛠️ What We Worked On Tonight
 
-Tonight, we focused on refining and enhancing the **Love & Kindness Email** to ensure it is professional, visually appealing, and emotionally engaging. Here's a summary of the key updates:
+Tonight, we focused on refining and enhancing the **Eat Healthy Email** to ensure it is professional, visually appealing, and emotionally engaging. Here's a summary of the key updates:
 
 1. **Logo Alignment**:
    - Centered the logo in the header for a clean and balanced design.
@@ -45,8 +46,8 @@ Tonight, we focused on refining and enhancing the **Love & Kindness Email** to e
    - Reduced font sizes and button dimensions to fit all content within one page.
 
 3. **Content Optimization**:
-   - Crafted engaging text to inspire reflection and gratitude.
-   - Highlighted the beauty of simplicity and kindness in everyday life.
+   - Crafted engaging text to inspire healthy eating and gratitude.
+   - Highlighted the connection between wellness and faith.
 
 These updates ensure that the email is polished, professional, and ready for deployment.
 
