@@ -2,52 +2,54 @@
 
 ---
 
-## 📅 Latest Project: Eat Healthy Email
+## 📅 Latest Project: Maryam’s Special Fruit Email
 
 ### **Project Overview**
-The **Eat Healthy Email** is a professional and responsive email designed to inspire healthy eating habits while honoring faith. It highlights the importance of gratitude and wellness through engaging content and a clean, visually appealing design.
+The **Maryam’s Special Fruit Email** is a beautifully crafted and responsive email designed to inspire reflection and gratitude. It highlights the story of Prophet Zakariya and Maryam, emphasizing faith, blessings, and the power of sincere du’a. The email combines engaging content with a clean, professional design optimized for all major email clients.
 
 ### **Steps Taken**
 1. **Designing in Canva**:
    - Created visually appealing banners and assets to complement the email content.
-   - Focused on simplicity and emotional resonance to align with the theme of healthy living.
+   - Focused on simplicity and emotional resonance to align with the theme of faith and blessings.
 
 2. **Editing Styles and Coding**:
    - Used **HTML** and **CSS** to structure and style the email.
-   - Incorporated responsive design principles to ensure compatibility across devices.
+   - Incorporated table-based layouts for cross-client compatibility (Outlook, Gmail, Yahoo, Apple Mail).
+   - Optimized the design for responsiveness across desktop and mobile devices.
 
 3. **Testing in Litmus**:
-   - Tested the email across multiple devices and email clients (e.g., Gmail, Outlook, Yahoo) to ensure compatibility.
-   - Made adjustments for better rendering and accessibility.
+   - Tested the email across multiple devices and email clients to ensure consistent rendering.
+   - Made adjustments for better accessibility and readability.
 
-4. **Polishing for Readability**:
-   - Reduced font sizes and optimized spacing to fit all content within one page.
-   - Ensured high contrast and clear typography for better accessibility.
+4. **Polishing for Single-Page Layout**:
+   - Reduced font sizes and optimized spacing to fit all content within a single page.
+   - Ensured high contrast and clear typography for better user experience.
 
 5. **Effort and Time**:
-   - Spent approximately **5 hours** designing, coding, testing, and refining the email to achieve a polished and professional result.
+   - Spent approximately **6 hours** designing, coding, testing, and refining the email to achieve a polished and professional result.
 
 ### **Key Highlights**
-- **Centered Logo**: Ensured the logo is prominently displayed and centered for better branding.
+- **Faith-Inspired Content**: Crafted emotionally resonant text to inspire reflection and gratitude.
 - **Responsive Layout**: Optimized the email for both desktop and mobile devices.
-- **Call-to-Action**: Added a clear and engaging button to encourage user interaction.
+- **Cross-Client Compatibility**: Ensured consistent rendering across Gmail, Outlook, Yahoo, and Apple Mail.
+- **Call-to-Action**: Added a clear and engaging footer to encourage sharing the story of faith and wonder.
 - **Professional Aesthetic**: Used modern design principles to create a visually appealing and user-friendly experience.
 
 ---
 
 ## 🛠️ What We Worked On Tonight
 
-Tonight, we focused on refining and enhancing the **Eat Healthy Email** to ensure it is professional, visually appealing, and emotionally engaging. Here's a summary of the key updates:
+Tonight, we focused on refining and enhancing the **Maryam’s Special Fruit Email** to ensure it is professional, visually appealing, and emotionally engaging. Here's a summary of the key updates:
 
 1. **Logo Alignment**:
    - Centered the logo in the header for a clean and balanced design.
 
 2. **Compact Layout**:
-   - Reduced font sizes and button dimensions to fit all content within one page.
+   - Reduced font sizes and banner dimensions to fit all content within a single page.
 
 3. **Content Optimization**:
-   - Crafted engaging text to inspire healthy eating and gratitude.
-   - Highlighted the connection between wellness and faith.
+   - Highlighted the connection between faith, blessings, and sincere du’a.
+   - Crafted engaging text to inspire reflection and gratitude.
 
 These updates ensure that the email is polished, professional, and ready for deployment.
 
