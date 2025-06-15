@@ -2,15 +2,15 @@
 
 ---
 
-## 📅 Latest Project: Maryam’s Special Fruit Email
+## 📅 Latest Project: Walking Alone Email Template
 
 ### **Project Overview**
-The **Maryam’s Special Fruit Email** is a beautifully crafted and responsive email designed to inspire reflection and gratitude. It highlights the story of Prophet Zakariya and Maryam, emphasizing faith, blessings, and the power of sincere du’a. The email combines engaging content with a clean, professional design optimized for all major email clients.
+The **Walking Alone Email Template** is a professionally crafted and responsive email designed to inspire personal growth and mindfulness. It highlights the story of walking alone as a metaphor for strength and resilience, featuring a visually appealing banner and clean layout optimized for all major email clients.
 
 ### **Steps Taken**
 1. **Designing in Canva**:
    - Created visually appealing banners and assets to complement the email content.
-   - Focused on simplicity and emotional resonance to align with the theme of faith and blessings.
+   - Focused on simplicity and emotional resonance to align with the theme of personal growth.
 
 2. **Editing Styles and Coding**:
    - Used **HTML** and **CSS** to structure and style the email.
@@ -29,17 +29,17 @@ The **Maryam’s Special Fruit Email** is a beautifully crafted and responsive e
    - Spent approximately **6 hours** designing, coding, testing, and refining the email to achieve a polished and professional result.
 
 ### **Key Highlights**
-- **Faith-Inspired Content**: Crafted emotionally resonant text to inspire reflection and gratitude.
+- **Mindfulness-Inspired Content**: Crafted emotionally resonant text to inspire personal growth and reflection.
 - **Responsive Layout**: Optimized the email for both desktop and mobile devices.
 - **Cross-Client Compatibility**: Ensured consistent rendering across Gmail, Outlook, Yahoo, and Apple Mail.
-- **Call-to-Action**: Added a clear and engaging footer to encourage sharing the story of faith and wonder.
+- **Call-to-Action**: Added a clear and engaging footer to encourage sharing the story of mindfulness and resilience.
 - **Professional Aesthetic**: Used modern design principles to create a visually appealing and user-friendly experience.
 
 ---
 
 ## 🛠️ What We Worked On Tonight
 
-Tonight, we focused on refining and enhancing the **Maryam’s Special Fruit Email** to ensure it is professional, visually appealing, and emotionally engaging. Here's a summary of the key updates:
+Tonight, we focused on refining and enhancing the **Walking Alone Email Template** to ensure it is professional, visually appealing, and emotionally engaging. Here's a summary of the key updates:
 
 1. **Logo Alignment**:
    - Centered the logo in the header for a clean and balanced design.
@@ -48,7 +48,7 @@ Tonight, we focused on refining and enhancing the **Maryam’s Special Fruit Ema
    - Reduced font sizes and banner dimensions to fit all content within a single page.
 
 3. **Content Optimization**:
-   - Highlighted the connection between faith, blessings, and sincere du’a.
+   - Highlighted the connection between mindfulness, resilience, and personal growth.
    - Crafted engaging text to inspire reflection and gratitude.
 
 These updates ensure that the email is polished, professional, and ready for deployment.
