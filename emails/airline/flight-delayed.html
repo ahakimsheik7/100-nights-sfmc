@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flight Delay Notification</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 100%;
+      max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+      padding: 20px;
+    }
+    .header {
+      background-color: #ffffff;
+      color: #e41e2b;
+      text-align: center;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    .content {
+      background-color: #f8f8f8;
+      padding: 20px;
+      border: 1px solid #dddddd;
+      border-radius: 5px;
+    }
+    .content h1 {
+      font-size: 20px;
+      color: #e41e2b;
+      margin-bottom: 15px;
+    }
+    .content p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+    .button {
+      display: inline-block;
+      padding: 12px 20px;
+      background-color: #0072ce;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .footer {
+      font-size: 12px;
+      color: #777;
+      padding: 20px;
+      text-align: center;
+    }
+    .footer a {
+      color: #0072ce;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header Section -->
+    <div class="header">
+      DELTA AIRLINES
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+      <!-- AMPscript personalization -->
+      <!--%%[ 
+        VAR @FirstName, @FlightNumber, @NewDepartureTime, @DelayReason, @Origin, @Destination, @OriginalDepartureTime, @DelayDuration
+        SET @FirstName = [FirstName]
+        SET @FlightNumber = [FlightNumber]
+        SET @NewDepartureTime = [NewDepartureTime]
+        SET @DelayReason = [DelayReason]
+        SET @Origin = [Origin]
+        SET @Destination = [Destination]
+        SET @OriginalDepartureTime = "5:00 PM EST"
+        SET @DelayDuration = "3 hours" /* Calculated delay duration */
+      ]%%-->
+
+      <h1>Flight Delay Notification</h1>
+      <p>Dear <!--%%=v(@FirstName)=%%-->Sarah<!--%%=v(@FirstName)=%%-->,</p>
+      <p>We regret to inform you that your flight <strong><!--%%=v(@FlightNumber)=%%-->DL2431<!--%%=v(@FlightNumber)=%%--></strong> from <strong><!--%%=v(@Origin)=%%-->ORD<!--%%=v(@Origin)=%%--></strong> to <strong><!--%%=v(@Destination)=%%-->JFK<!--%%=v(@Destination)=%%--></strong> has been delayed.</p>
+      <p><strong>Original Departure Time:</strong> 5:00 PM EST</p>
+      <p><strong>New Estimated Departure Time:</strong> <!--%%=v(@NewDepartureTime)=%%-->8:00 PM EST<!--%%=v(@NewDepartureTime)=%%--></p>
+      <p><strong>Delay Duration:</strong> 3 hours</p>
+      <p><strong>Reason for Delay:</strong> <!--%%=v(@DelayReason)=%%-->Mechanical issue<!--%%=v(@DelayReason)=%%--></p>
+
+      <p>We apologize for the inconvenience and are here to help.</p>
+
+      <a href="https://www.delta.com/support" class="button">Rebook or Contact Support</a>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+      <p>This is a system notification. Please do not reply to this email.</p>
+      <p>Delta Airlines | 1030 Delta Blvd, Atlanta, GA 30354</p>
+      <p><a href="%%unsub_center_url%%">Unsubscribe</a></p>
+    </div>
+  </div>
+</body>
+</html>
