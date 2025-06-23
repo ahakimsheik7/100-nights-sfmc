@@ -1,15 +1,24 @@
-# 🌟 Email Marketing Specialist Portfolio
+# 🌟 Email Marketing Specialist Portfolio: Sufi Academy - Early Learning for Kids Starting at Age 3
 
 ---
 
-## 🛠️ Tonight's Work: Building a Real Portfolio
+## 🛠️ Latest Project: Sufi Academy - Early Learning Email
 
 ### **Overview**
-Tonight, we focused on creating professional email templates for real-world applications, showcasing expertise in email marketing, dynamic personalization, and responsive design. Each project was designed to meet industry standards, ensuring compatibility across all major email clients while maintaining a clean and professional look.
+The **Sufi Academy - Early Learning Email** is a professionally crafted and responsive email designed to promote early learning programs for kids starting at age 3. This project highlights the use of multiple tools and technologies, including Visual Studio Code, GitHub Copilot, Canva, AMPscript, and handwritten HTML/CSS code. The email was developed with a focus on branding, dynamic personalization, and cross-client compatibility.
 
 ---
 
 ### **Key Projects**
+
+#### 🌟 **Sufi Academy - Early Learning Email**
+- **Goal**: Create a visually appealing and responsive email template for Sufi Academy's early learning program for kids starting at age 3.
+- **Highlights**:
+  - Designed banners and visual assets using Canva to align with the academy's branding.
+  - Used AMPscript for dynamic personalization to tailor the email content for each recipient.
+  - Developed a clean and responsive layout using table-based HTML/CSS for cross-client compatibility.
+  - Polished the code to ensure accessibility and professional standards.
+- **Time Spent**: ~6 hours.
 
 #### 🛫 **Flight Delay Notification Email**
 - **Goal**: Notify passengers of flight delays with a professional and branded email.
@@ -40,6 +49,8 @@ Tonight, we focused on creating professional email templates for real-world appl
 ---
 
 ### **Tools and Technologies Used**
+- **Visual Studio Code**: For coding and debugging the email templates.
+- **GitHub Copilot**: For code suggestions and efficiency.
 - **Salesforce Marketing Cloud (SFMC)**: For AMPscript and dynamic personalization.
 - **HTML/CSS**: For structuring and styling the email templates.
 - **Litmus**: For testing email rendering across different clients and devices.
@@ -60,7 +71,7 @@ Tonight, we focused on creating professional email templates for real-world appl
    - Used table-based layouts and inline styles to ensure consistent rendering across major email clients like Gmail, Outlook, and Yahoo.
 
 4. **Brand-Focused Design**:
-   - Maintained branding guidelines for Delta Airlines, including colors, fonts, and layout.
+   - Maintained branding guidelines for Delta Airlines and Sufi Academy, including colors, fonts, and layout.
 
 5. **Accessibility Enhancements**:
    - Included descriptive `alt` attributes for all images.
