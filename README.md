@@ -1,15 +1,29 @@
-# 🌟 Email Marketing Specialist Portfolio: Sufi Academy - Early Learning for Kids Starting at Age 3
+# 🌟 Email Marketing Specialist Portfolio: Isbaano Wellness - Healthcare Email Template
 
 ---
 
-## 🛠️ Latest Project: Sufi Academy - Early Learning Email
+## 🛠️ Latest Project: Isbaano Wellness Email Template
 
 ### **Overview**
-The **Sufi Academy - Early Learning Email** is a professionally crafted and responsive email designed to promote early learning programs for kids starting at age 3. This project highlights the use of multiple tools and technologies, including Visual Studio Code, GitHub Copilot, Canva, AMPscript, and handwritten HTML/CSS code. The email was developed with a focus on branding, dynamic personalization, and cross-client compatibility.
+The **Isbaano Wellness Email Template** is a professionally crafted and responsive email designed to promote East African wellness traditions. This project highlights the use of multiple tools and technologies, including Visual Studio Code, GitHub Copilot, Canva, AMPscript, and handwritten HTML/CSS code. The email was developed with a focus on branding, dynamic personalization, and cross-client compatibility.
 
 ---
 
 ### **Key Projects**
+
+#### 🌟 **Isbaano Wellness Email Template**
+- **Goal**: Create a visually appealing and responsive email template for Isbaano Wellness, promoting East African traditions and healthy living.
+- **Highlights**:
+  - Designed the **logo** and **banner** using Canva to align with Isbaano's branding.
+  - Selected brand colors:
+    - **#b5ccd4** for the email background to match the logo.
+    - **#6a3ea1** for call-to-action buttons and headings.
+    - **#f0f4ff** for content cards to create a clean and professional look.
+  - Used AMPscript for dynamic personalization to tailor the email content for each recipient.
+  - Developed a clean and responsive layout using table-based HTML/CSS for ESP compatibility.
+  - Polished the code to ensure accessibility and professional standards.
+  - Tested the email using Litmus to ensure consistent rendering across devices and email clients.
+- **Time Spent**: ~8 hours.
 
 #### 🌟 **Sufi Academy - Early Learning Email**
 - **Goal**: Create a visually appealing and responsive email template for Sufi Academy's early learning program for kids starting at age 3.
@@ -71,7 +85,7 @@ The **Sufi Academy - Early Learning Email** is a professionally crafted and resp
    - Used table-based layouts and inline styles to ensure consistent rendering across major email clients like Gmail, Outlook, and Yahoo.
 
 4. **Brand-Focused Design**:
-   - Maintained branding guidelines for Delta Airlines and Sufi Academy, including colors, fonts, and layout.
+   - Maintained branding guidelines for Isbaano Wellness, Delta Airlines, and Sufi Academy, including colors, fonts, and layout.
 
 5. **Accessibility Enhancements**:
    - Included descriptive `alt` attributes for all images.
