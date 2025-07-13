@@ -1,15 +1,30 @@
-# 🌟 Email Marketing Specialist Portfolio: Somali Camel Milk Email Template
+# 🌟 Email Marketing Specialist Portfolio: Tayo360 Email Marketing Templates
 
 ---
 
-## 🛠️ Latest Project: Somali Camel Milk Email Template
+## 🛠️ Latest Project: Tayo360 Email Marketing Template
 
 ### **Overview**
-The **Somali Camel Milk Email Template** is a professionally crafted and responsive email designed to promote East African wellness traditions. This project highlights the use of multiple tools and technologies, including Visual Studio Code, GitHub Copilot, Canva, AMPscript, and handwritten HTML/CSS code. The email was developed with a focus on branding, dynamic personalization, and cross-client compatibility.
+The **Tayo360 Email Marketing Template** is a professionally designed and responsive email created to promote Tayo360's Fall 2025 E-Learning Programs. This project highlights branding, responsiveness, and cross-client compatibility, ensuring a seamless user experience across devices and email clients.
 
 ---
 
 ### **Key Projects**
+
+#### 🌟 **Tayo360 Email Marketing Template**
+- **Goal**: Create a professional and responsive email template for Tayo360's Fall 2025 E-Learning Programs.
+- **Highlights**:
+  - Designed a clean, single-page email layout with Tayo360 branding.
+  - Used table-based HTML/CSS for ESP compatibility and responsiveness.
+  - Incorporated branding colors:
+    - **#0072ce** for primary elements.
+    - **#f6d639** for call-to-action buttons.
+    - **#112c5d** for footer and header backgrounds.
+  - Developed a compact footer and optimized the layout for mobile devices.
+  - Tested the email using Litmus to ensure cross-client compatibility.
+- **Time Spent**: ~6 hours.
+
+---
 
 #### 🌟 **Somali Camel Milk Email Template**
 - **Goal**: Create a visually appealing and responsive email template for Somali Camel Milk, promoting East African traditions and healthy living.
@@ -51,7 +66,7 @@ The **Somali Camel Milk Email Template** is a professionally crafted and respons
    - Used table-based layouts and inline styles to ensure consistent rendering across major email clients like Gmail, Outlook, and Yahoo.
 
 4. **Brand-Focused Design**:
-   - Maintained branding guidelines for Somali Camel Milk, including colors, fonts, and layout.
+   - Maintained branding guidelines for Tayo360 and Somali Camel Milk, including colors, fonts, and layout.
 
 5. **Accessibility Enhancements**:
    - Included descriptive `alt` attributes for all images.
